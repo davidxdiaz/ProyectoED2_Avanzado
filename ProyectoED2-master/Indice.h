@@ -12,7 +12,7 @@ public:
     Indice(DataFile * a,int primerBIndice,int actualBIndice,int maximo);
     int primerBIndice;
     int actualBIndice;
-    bool insertar(char * id,int nBloque,int nRegistroR,ManejadordeBloques * mb);
+    bool insertar(Idx_Entry *e,ManejadordeBloques * mb);
     Idx_Entry * buscar(char * id);
     void reHash(ManejadordeBloques * mB);
     int hash(char *id);

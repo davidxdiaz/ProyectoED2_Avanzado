@@ -98,7 +98,8 @@ void tabla::crearRegistro(ManejadordeBloques * mbloques,Registro *r)
         primerBloqueDatos=b->nBloque;
         actualBloqueDatos=b->nBloque;
         //Lo agrego a la Hash table
-
+        entry= new Idx_Entry(r->campoDatos->get(0)->valor,b->nBloque,0);
+        indice->insertar(entry,mbloques);
         return;
     }
     int actual=primerBloqueDatos;
@@ -106,33 +107,43 @@ void tabla::crearRegistro(ManejadordeBloques * mbloques,Registro *r)
     {
         BloqueRegistro *br = new BloqueRegistro(archivo,actual);
         br->cargar(r->longitudRegistro);
-        int maximo=496/r->longitudRegistro;
-        if(br->registros->cantidad < 2)
+        int maximo=(int) (496/r->longitudRegistro);
+        if(br->registros->cantidad < maximo)
         {
-
-            br->registros->add(r);
-            br->actualizarCantidad();
-            br->escribir();
-            registros->add(r);
+            entry= new Idx_Entry(r->campoDatos->get(0)->valor,br->nBloque,br->cantidad);
+            if(indice->insertar(entry,mbloques))
+            {
+                br->registros->add(r);
+                br->actualizarCantidad();
+                br->escribir();
+                registros->add(r);
+            }
+            cout<<"No se pudo agregar el registro debido al id del registro"<<endl;
             return;
             //Tenqo que guardar la tabla o por lo menos el bloqueTabla como tal
         }
-        cout<<actual<<endl;
         actual=br->siguiente;
-
+        delete  br;
     }
+    entry= new Idx_Entry(r->campoDatos->get(0)->valor,mbloques->masterBlock->sigBloqueDisponible,0);
+    if(indice->insertar(entry,mbloques))
+    {
+        Bloque *b=mbloques->asignarNueboBloque();
+        BloqueRegistro * br = new BloqueRegistro(archivo,b->nBloque);
+        BloqueRegistro * tmp = new BloqueRegistro(archivo,actualBloqueDatos);
+        tmp->cargar(r->longitudRegistro);
+        tmp->siguiente=br->nBloque;
+        tmp->escribir();
+        br->registros->add(r);
+        registros->add(r);
+        br->actualizarCantidad();
+        br->escribir();
+        actualBloqueDatos=b->nBloque;
+    }
+    else
+        cout<<"No se pudo agregar el registro debido al id del registro"<<endl;
 
-    Bloque *b=mbloques->asignarNueboBloque();
-    BloqueRegistro * br = new BloqueRegistro(archivo,b->nBloque);
-    BloqueRegistro * tmp = new BloqueRegistro(archivo,actualBloqueDatos);
-    tmp->cargar(r->longitudRegistro);
-    tmp->siguiente=br->nBloque;
-    tmp->escribir();
-    br->registros->add(r);
-    registros->add(r);
-    br->actualizarCantidad();
-    br->escribir();
-    actualBloqueDatos=b->nBloque;
+
 }
 
 void tabla::crearCampo(ManejadordeBloques * mbloques,char name[20],int tipo)

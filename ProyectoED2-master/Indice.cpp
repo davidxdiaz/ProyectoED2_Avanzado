@@ -16,11 +16,11 @@ Indice::Indice(DataFile * a, int primer,int actual,int maximo)
     M=maximo;
 }
 
-bool Indice::insertar(char * id,int nBloque,int nRegistroR,ManejadordeBloques * mb)
+bool Indice::insertar(Idx_Entry * e,ManejadordeBloques * mb)
 {
-    int pos= hash(id);
-    if(buscar(id)!=0){
-        Idx_Entry * entrada= new Idx_Entry(id,nBloque,nRegistroR);
+    int pos= hash(e->id);
+    if(buscar(e->id)!=0){
+        Idx_Entry * entrada=e; //new Idx_Entry(id,nBloque,nRegistroR);
         int cont=0;
         for(int x=0;x<pos;x+=62){
             cont++;
@@ -125,8 +125,14 @@ Idx_Entry * Indice::buscar(char * id)
     return 0;
 }
 
-void Indice::reHash(ManejadordeBloques * mB)
+/*void Indice::reHash(ManejadordeBloques * mB)
 {
+    HashTableEntry * tmp[M];
+    for(int c=0;c<M;c++)
+    {
+
+    }
+
     M=M *2;
     HashTableEntry * tabla[M];
     int actual = primerBIndice;
@@ -156,4 +162,4 @@ void Indice::reHash(ManejadordeBloques * mB)
 
 
 
-}
+}*/
