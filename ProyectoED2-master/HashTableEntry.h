@@ -8,9 +8,9 @@
 
 class HashTableEntry {
 public:
-    HashTableEntry();
-    int primerIdxEntry;
-    int actualIdxEntry;
+    HashTableEntry(int p,int a);
+    int primerBloqueLLave;
+    int actualBloqueLLave;
 
     char * toChar();
     void initFromChar(char * data);

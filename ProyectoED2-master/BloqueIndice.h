@@ -23,6 +23,8 @@ public:
     void escribir();
     void cargar();
     DataFile * archivo;
+    HashTableEntry * getEntrada(int pos);
+
 
 };
 

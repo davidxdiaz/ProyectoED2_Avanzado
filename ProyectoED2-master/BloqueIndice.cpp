@@ -68,3 +68,17 @@ void BloqueIndice::cargar()
     char * data= archivo->leer(pos,tamano);
     initFromChar(data);
 }
+
+HashTableEntry * BloqueIndice::getEntrada(int p)
+{
+    int pos= nBloque * tamano+20;
+    char * data= archivo->leer(pos,tamano);
+    int posDef= p * 8 +16;
+    int primer,actual;
+    memcpy(&primer,&data[posDef],4);
+    posDef+=4;
+    memcpy(&actual,&data[posDef],4);
+    posDef+=4;
+    HashTableEntry * entry= new HashTableEntry(primer,actual);
+    return entry;
+}

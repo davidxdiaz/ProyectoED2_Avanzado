@@ -11,8 +11,6 @@ BloqueLlave::BloqueLlave(DataFile * a,int nB)
     siguiente=-1;
     tamano=512;
     cantidad=0;
-    for(int c=0;c<17;c++)
-        llaves[c]=0;
     archivo=a;
 }
 
@@ -34,10 +32,9 @@ char * BloqueLlave::toChar()
     pos+=4;
     memcpy(&data[pos],&cantidad,4);
     pos+=4;
-    for(int c=0;c<17;c++)
+    for(int c=0;c<cantidad;c++)
     {
-        if(llaves[c] != 0)
-            memcpy(&data[pos],llaves[c]->toChar(),28);
+        memcpy(&data[pos],llaves[c]->toChar(),28);
         pos+=28;
     }
     return data;
@@ -54,6 +51,20 @@ void BloqueLlave::initFromChar(char * data)
     pos+=4;
     memcpy(&cantidad,&data[pos],4);
     pos+=4;
+    for(int c=0;c<cantidad;c++)
+    {
+        char * id= new char[20];
+        int nB;
+        int nRR;
+        memcpy(id,&data[pos],20);
+        pos+=20;
+        memcpy(&nB,&data[pos],4);
+        pos+=4;
+        memcpy(&nRR,&data[pos],4);
+        pos+=4;
+        Idx_Entry * entrada= new  Idx_Entry(id,nB,nRR);
+        llaves[c]=entrada;
+    }
 }
 
 void BloqueLlave::escribir()

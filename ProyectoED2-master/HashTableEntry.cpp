@@ -5,26 +5,26 @@
 #include "HashTableEntry.h"
 #include "string.h"
 
-HashTableEntry::HashTableEntry()
+HashTableEntry::HashTableEntry(int p,int a)
 {
-    primerIdxEntry=-1;
-    actualIdxEntry=-1;
+    primerBloqueLLave=-p;
+    actualBloqueLLave=-a;
 }
 
 char * HashTableEntry::toChar()
 {
     int pos=0;
     char * data = new char[8];
-    memcpy(&data[pos],&primerIdxEntry,4);
+    memcpy(&data[pos],&primerBloqueLLave,4);
     pos+=4;
-    memcpy(&data[pos],&actualIdxEntry,4);
+    memcpy(&data[pos],&actualBloqueLLave,4);
     pos+=4;
 }
 void HashTableEntry::initFromChar(char * data)
 {
     int pos=0;
-    memcpy(&primerIdxEntry,&data[pos],4);
+    memcpy(&primerBloqueLLave,&data[pos],4);
     pos+=4;
-    memcpy(&actualIdxEntry,&data[pos],4);
+    memcpy(&actualBloqueLLave,&data[pos],4);
     pos+=4;
 }
