@@ -11,7 +11,7 @@ BloqueLlave::BloqueLlave(DataFile * a,int nB)
     siguiente=-1;
     tamano=512;
     cantidad=0;
-    for(int c=0;c<62;c++)
+    for(int c=0;c<17;c++)
         llaves[c]=0;
     archivo=a;
 }
@@ -22,7 +22,7 @@ void BloqueLlave::actualizarCantidad()
     cantidad++;
 }
 
-char * BloqueIndice::toChar()
+char * BloqueLlave::toChar()
 {
     int pos=0;
     char * data= new char[tamano];
@@ -34,16 +34,16 @@ char * BloqueIndice::toChar()
     pos+=4;
     memcpy(&data[pos],&cantidad,4);
     pos+=4;
-    for(int c=0;c<62;c++)
+    for(int c=0;c<17;c++)
     {
-        if(indice[c] != 0)
-            memcpy(&data[pos],indice[c]->toChar(),8);
-        pos+=8;
+        if(llaves[c] != 0)
+            memcpy(&data[pos],llaves[c]->toChar(),28);
+        pos+=28;
     }
     return data;
 }
 
-void BloqueIndice::initFromChar(char * data)
+void BloqueLlave::initFromChar(char * data)
 {
     int pos=0;
     memcpy(&nBloque,&data[pos],4);
@@ -56,14 +56,14 @@ void BloqueIndice::initFromChar(char * data)
     pos+=4;
 }
 
-void BloqueIndice::escribir()
+void BloqueLlave::escribir()
 {
     char * data= this->toChar();
     int pos= nBloque * tamano+20;
     archivo->escribir(data,pos,tamano);
 }
 
-void BloqueIndice::cargar()
+void BloqueLlave::cargar()
 {
     int pos= nBloque * tamano+20;
     char * data= archivo->leer(pos,tamano);
