@@ -68,7 +68,7 @@ void BloqueTabla::initFromChar(char * data)
     pos+=4;
     for(int c=0;c<cantidad;c++)
     {
-        tabla *t= new tabla("",0,0,0,0,0,0,archivo);
+        tabla *t= new tabla("",0,0,0,0,0,0,archivo,0,0);
         t->charToTabla(&data[pos]);
         tablas->addTabla(t);
         pos+=44;

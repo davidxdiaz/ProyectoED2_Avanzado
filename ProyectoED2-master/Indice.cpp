@@ -6,14 +6,18 @@
 #include "BloqueIndice.h"
 #include "HashTableEntry.h"
 #include "BloqueLlave.h"
-
+#include <iostream>
+using  namespace std;
 
 Indice::Indice(DataFile * a, int primer,int actual,int maximo)
 {
     archivo=a;
     primerBIndice=primer;
     actualBIndice=actual;
-    M=maximo;
+    if(maximo==0)
+        M=62;
+    else
+        M=maximo;
 }
 
 bool Indice::insertar(Idx_Entry * e,ManejadordeBloques * mb)
@@ -84,7 +88,9 @@ int Indice::hash(char * id)
         ascii = (int)(id[c]);
         clave+=ascii;
     }
-    return clave%M;
+    int n=clave%M;
+    cout<<"Hash"<<n<<endl;
+    return n;
 }
 
 Idx_Entry * Indice::buscar(char * id)

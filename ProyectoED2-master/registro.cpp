@@ -38,4 +38,12 @@ void Registro::initFromChar(char * data)
     }
 }
 
+void Registro::printRegistro()
+{
+    for(int c=0;c<campoDatos->cantidad;c++)
+    {
+        cout<<" "<<campoDatos->get(c)->valor<<" ";
+    }
+}
+
 

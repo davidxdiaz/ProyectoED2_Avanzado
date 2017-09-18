@@ -21,10 +21,14 @@ C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/HashTableEntry.h
 C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/BloqueLlave.cpp
 BloqueLlave.h
 C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/BloqueLlave.h
+string.h
+C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/string.h
 
 C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/BloqueLlave.h
 Idx_Entry.h
 C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/Idx_Entry.h
+datafile.h
+C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/datafile.h
 
 C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/HashTableEntry.cpp
 HashTableEntry.h
@@ -47,8 +51,22 @@ C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/Idx_Entry.h
 C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/Indice.cpp
 Indice.h
 C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/Indice.h
+BloqueIndice.h
+C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/BloqueIndice.h
+HashTableEntry.h
+C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/HashTableEntry.h
+BloqueLlave.h
+C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/BloqueLlave.h
+iostream
+-
 
 C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/Indice.h
+Idx_Entry.h
+C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/Idx_Entry.h
+datafile.h
+C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/datafile.h
+manejadordebloques.h
+C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/manejadordebloques.h
 
 C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/bloque.cpp
 bloque.h
@@ -453,6 +471,10 @@ bloquecampo.h
 C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/bloquecampo.h
 registro.h
 C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/registro.h
+Idx_Entry.h
+C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/Idx_Entry.h
+BloqueIndice.h
+C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/BloqueIndice.h
 
 C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/tabla.h
 listcampos.h
@@ -465,4 +487,6 @@ listregistros.h
 C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/listregistros.h
 manejadordebloques.h
 C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/manejadordebloques.h
+Indice.h
+C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/Indice.h
 

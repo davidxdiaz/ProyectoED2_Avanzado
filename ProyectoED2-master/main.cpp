@@ -26,7 +26,7 @@ int main()
     ManejadroTablas * mtablas=new ManejadroTablas(archivo,mbloques->masterBlock);
 
 
-    /*for(int c=0;c<100;c++)
+    for(int c=0;c<1;c++)
     {
         char * nombre= new char[20];
         nombre[0]='t';
@@ -75,6 +75,10 @@ int main()
             for(int i=0;i<10;i++)
             {
                 char * datos= new char[20];
+                for(int a=0;a<20;a++)
+                {
+                    datos[a]='\0';
+                }
                 datos[0]='d';
                 datos[1]='a';
                 datos[2]='t';
@@ -82,6 +86,9 @@ int main()
                 datos[4]='_';
 
                 char cadena2[10];
+                for(int a=0;a<10;a++){
+                    cadena2[a]='\0';
+                }
                 sprintf(cadena2, "%d", i);
                 for(int x=0;cadena2[x]!='\0';x++)
                 {
@@ -98,6 +105,13 @@ int main()
             }
             mtablas->addRegistro(c,mbloques,r);
         }//*/
+
+    //Probando la hashTable
+
+    //mtablas->buscarTabla(0)->buscarRegistro("dato_0")->printRegistro();
+
+
+    //Probando Json
     /*mtablas->exportar(0);
     mtablas->mj->guardar();//*/
     /*mtablas->mj->cargar();

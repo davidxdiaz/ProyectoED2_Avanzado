@@ -11,6 +11,7 @@ class Registro
         Registro * sig;
         char * toChar();
         void initFromChar(char * data);
+        void printRegistro();
 
     private:
 };

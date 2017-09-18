@@ -10,6 +10,7 @@ CMakeFiles/ProyectoED2_master.dir/BloqueLlave.cpp.obj
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/BloqueLlave.cpp
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/BloqueLlave.h
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/Idx_Entry.h
+ C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/datafile.h
 CMakeFiles/ProyectoED2_master.dir/HashTableEntry.cpp.obj
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/HashTableEntry.cpp
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/HashTableEntry.h
@@ -17,8 +18,16 @@ CMakeFiles/ProyectoED2_master.dir/Idx_Entry.cpp.obj
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/Idx_Entry.cpp
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/Idx_Entry.h
 CMakeFiles/ProyectoED2_master.dir/Indice.cpp.obj
+ C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/BloqueIndice.h
+ C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/BloqueLlave.h
+ C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/HashTableEntry.h
+ C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/Idx_Entry.h
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/Indice.cpp
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/Indice.h
+ C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/bloque.h
+ C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/datafile.h
+ C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/manejadordebloques.h
+ C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/masterblock.h
 CMakeFiles/ProyectoED2_master.dir/bloque.cpp.obj
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/bloque.cpp
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/bloque.h
@@ -39,6 +48,8 @@ CMakeFiles/ProyectoED2_master.dir/bloqueregistro.cpp.obj
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/listregistros.h
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/registro.h
 CMakeFiles/ProyectoED2_master.dir/bloquetabla.cpp.obj
+ C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/Idx_Entry.h
+ C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/Indice.h
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/bloque.h
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/bloquetabla.cpp
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/bloquetabla.h
@@ -64,6 +75,8 @@ CMakeFiles/ProyectoED2_master.dir/datafile.cpp.obj
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/datafile.cpp
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/datafile.h
 CMakeFiles/ProyectoED2_master.dir/listbloquetablas.cpp.obj
+ C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/Idx_Entry.h
+ C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/Indice.h
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/bloque.h
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/bloquetabla.h
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/campo.h
@@ -96,6 +109,8 @@ CMakeFiles/ProyectoED2_master.dir/listregistros.cpp.obj
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/listregistros.h
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/registro.h
 CMakeFiles/ProyectoED2_master.dir/listtabla.cpp.obj
+ C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/Idx_Entry.h
+ C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/Indice.h
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/bloque.h
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/campo.h
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/campodatos.h
@@ -110,6 +125,8 @@ CMakeFiles/ProyectoED2_master.dir/listtabla.cpp.obj
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/registro.h
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/tabla.h
 CMakeFiles/ProyectoED2_master.dir/main.cpp.obj
+ C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/Idx_Entry.h
+ C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/Indice.h
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/bloque.h
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/bloquecampo.h
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/bloqueregistro.h
@@ -141,6 +158,8 @@ CMakeFiles/ProyectoED2_master.dir/manejadorjson.cpp.obj
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/manejadorjson.cpp
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/manejadorjson.h
 CMakeFiles/ProyectoED2_master.dir/manejadrotablas.cpp.obj
+ C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/Idx_Entry.h
+ C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/Indice.h
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/bloque.h
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/bloquetabla.h
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/campo.h
@@ -170,6 +189,10 @@ CMakeFiles/ProyectoED2_master.dir/registro.cpp.obj
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/registro.cpp
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/registro.h
 CMakeFiles/ProyectoED2_master.dir/tabla.cpp.obj
+ C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/BloqueIndice.h
+ C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/HashTableEntry.h
+ C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/Idx_Entry.h
+ C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/Indice.h
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/bloque.h
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/bloquecampo.h
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/bloqueregistro.h
