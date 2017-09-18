@@ -14,7 +14,7 @@ using namespace std;
 ManejadroTablas::ManejadroTablas(DataFile *a,MasterBlock * masterBlock)
 {
     archivo=a;
-
+    mj= new ManejadorJson();
     listaBT= new ListBloqueTablas();
     if(masterBlock->primerBloqueTabla!=-1)
     {
@@ -167,3 +167,140 @@ void ManejadroTablas::addRegistro(int id,ManejadordeBloques * manejador,Registro
         cout<<"Nombre Incorrecto"<<endl;
     }
 }
+
+void ManejadroTablas::importar(ManejadordeBloques *mb, int sig)
+{
+    if(sig==-1)
+        return;
+    string bTabla= "BloqueTabla";
+    string tabla= "Tabla";
+    string campos="Campos";
+    string registros="Registros";
+    string tipo="Tipo";
+    //BloqueTabla * bt;
+    ostringstream bt;
+    bt<<bTabla<<'_'<<sig;
+    int cantTablas=  mj->j[bt.str()]["NumeroTablas"].get<int>();
+
+    for(int c=0;c < cantTablas;c++)
+    {
+
+        ostringstream ta;
+        ta<<tabla<<'_'<<c;
+
+
+        //Saco las variables para crear la tabla y enlazar los campos y registros de la tabla
+        int id=mj->j[bt.str()][ta.str()]["Id"].get<int>();
+        char * nombre= new char[20];
+        string ntemp;
+        ntemp=mj->j[bt.str()][ta.str()]["Nombre"].get<string>();
+        strncpy(nombre,ntemp.c_str(),20);
+        //Creo la tabla
+        crearTabla(nombre,id,mb);
+
+        //Obtengo la cantidad de campos
+        int cantCampos= mj->j[bt.str()][ta.str()]["NCampos"].get<int>();
+        //Obtengo la cantidad de registros
+        int nRegistros =mj->j[bt.str()][ta.str()]["NRegistros"].get<int>();
+        for(int x=0;x< cantCampos;x++)
+        {
+            ostringstream cam;
+            ostringstream tp;
+
+            cam<<campos<<'_'<<x;
+            tp<<campos<<'_'<<x<<'_'<<tipo;
+
+            char * nameCampo= new char[20];
+
+            ntemp= mj->j[bt.str()][ta.str()][cam.str()].get<string>();
+            strncpy(nameCampo,ntemp.c_str(),20);
+            int tipo=  mj->j[bt.str()][ta.str()][tp.str()].get<int>();
+
+            campo * camp= new campo(nameCampo,tipo);
+            crearCampo(id,nameCampo,tipo,mb);
+
+
+        }
+        for(int i=0;i<nRegistros;i++)
+        {
+            Registro * registro = new Registro(buscarTabla(id)->getLongitudRegistros());
+
+            for(int x=0;x< cantCampos;x++)
+            {
+                ostringstream reg;
+                reg<<registros<<'_'<<i<<'_'<<x;
+                char *valor= new char[20];
+
+                ntemp=mj->j [bt.str()][ta.str()][reg.str()].get<string>();
+                strncpy(valor,ntemp.c_str(),20);
+                CampoDatos * campDatos= new CampoDatos(valor,buscarTabla(id)->campos->get(x));
+                registro->campoDatos->add(campDatos);
+            }
+            addRegistro(id,mb,registro);
+
+
+        }
+
+
+    }
+    sig=mj->j [bt.str()]["BloqueSiguiente"].get<int>();
+    importar(mb,sig);
+
+
+}
+
+void ManejadroTablas::exportar(int n)
+{
+    if(n==-1)
+        return;
+    BloqueTabla * bt = buscarBloqueTabla(n);
+    int cantTablas= bt->tablas->cantidad;
+    string bTabla= "BloqueTabla";
+    string tabla= "Tabla";
+    string campos="Campos";
+    string registros="Registros";
+    string tipo="Tipo";
+
+
+    for(int c=0;c<cantTablas;c++)
+    {
+        ostringstream t;
+        ostringstream b;
+        b<<bTabla<<'_'<<n;
+        t<<tabla<<'_'<<c;
+
+        mj->j[b.str()]["NumeroTablas"]=bt->tablas->cantidad;
+        mj->j [b.str()]["BloqueSiguiente"]=bt->siguiente;
+
+        mj->j[b.str()] [t.str()] ["Id"]=bt->tablas->get(c)->id;
+        mj->j [b.str()] [t.str()] ["Nombre"]=bt->tablas->get(c)->nombre;
+        int nCampos=bt->tablas->get(c)->campos->cantidad;
+        mj->j [b.str()] [t.str()] ["NCampos"]=nCampos;
+        int nRegistros=bt->tablas->get(c)->registros->cantidad;
+        mj->j [b.str()] [t.str()] ["NRegistros"]=nRegistros;
+
+        for(int x=0;x<nCampos;x++)
+        {
+            ostringstream cam;
+            ostringstream tp;
+            cam<<campos<<'_'<<x;
+            tp<<campos<<'_'<<x<<'_'<<tipo;
+
+            mj->j[b.str()] [t.str()] [cam.str()] = bt->tablas->get(c)->campos->get(x)->nombre;
+            mj->j[b.str()] [t.str()] [tp.str()] = bt->tablas->get(c)->campos->get(x)->tipo;
+
+            for(int i=0;i<nRegistros;i++)
+            {
+                ostringstream reg;
+                reg<<registros<<'_'<<i<<'_'<<x;
+
+                mj->j [b.str()][t.str()][reg.str()]= bt->tablas->get(c)->registros->get(i)->campoDatos->get(x)->valor;
+            }
+
+        }
+
+    }
+    exportar(bt->siguiente);
+}
+
+

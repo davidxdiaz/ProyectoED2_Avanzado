@@ -46,6 +46,7 @@
 		<Unit filename="campodatos.h" />
 		<Unit filename="datafile.cpp" />
 		<Unit filename="datafile.h" />
+		<Unit filename="json.hpp" />
 		<Unit filename="listbloquetablas.cpp" />
 		<Unit filename="listbloquetablas.h" />
 		<Unit filename="listcampodatos.cpp" />
@@ -59,6 +60,8 @@
 		<Unit filename="main.cpp" />
 		<Unit filename="manejadordebloques.cpp" />
 		<Unit filename="manejadordebloques.h" />
+		<Unit filename="manejadorjson.cpp" />
+		<Unit filename="manejadorjson.h" />
 		<Unit filename="manejadrotablas.cpp" />
 		<Unit filename="manejadrotablas.h" />
 		<Unit filename="masterblock.cpp" />

@@ -1,0 +1,3 @@
+C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/cmake-build-debug/CMakeFiles/ProyectoED2_master.dir
+C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/cmake-build-debug/CMakeFiles/rebuild_cache.dir

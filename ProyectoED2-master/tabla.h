@@ -5,6 +5,7 @@
 #include  "registro.h"
 #include "listregistros.h"
 #include "manejadordebloques.h"
+
 class tabla
 {
     public:
@@ -16,6 +17,8 @@ class tabla
         int actualBloqueCampos;
         int primerBloqueDatos;
         int actualBloqueDatos;
+        int primerBloqueIndice;
+        int actualBloqueIndice;
         int nBloque;
         ListCampos * campos;
         ListRegistros * registros;
