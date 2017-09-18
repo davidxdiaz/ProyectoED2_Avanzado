@@ -36,7 +36,7 @@ ManejadroTablas::ManejadroTablas(DataFile *a,MasterBlock * masterBlock)
 
 void ManejadroTablas::crearTabla(char name[20],int id,ManejadordeBloques * manejador)
 {
-    tabla * t = new tabla(name,id,-1,-1,-1,-1,0,archivo);
+    tabla * t = new tabla(name,id,-1,-1,-1,-1,0,archivo,-1,-1);
     if(manejador->masterBlock->primerBloqueTabla==-1)
     {
         BloqueTabla * bt= new BloqueTabla(archivo,0);
@@ -54,7 +54,7 @@ void ManejadroTablas::crearTabla(char name[20],int id,ManejadordeBloques * manej
     for(int x=0;x<listaBT->cantidad;x++)
     {
         BloqueTabla * bt=listaBT->get(x);
-        int maximo = 11;
+        int maximo = 9;
         if(bt->cantidad<maximo)
         {
             t->nBloque=bt->nBloque;

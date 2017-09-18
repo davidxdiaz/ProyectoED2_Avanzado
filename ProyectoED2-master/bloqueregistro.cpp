@@ -69,3 +69,12 @@ void BloqueRegistro::charToBloque(char *data, int longitud)
         pos+=longitud;
     }
 }
+
+Registro * BloqueRegistro::getRegsitro(int pos,int longitud) {
+    int posicion= nBloque * tamBloque+20;
+    char * data=archivo->leer(pos,tamBloque);
+    posicion = pos * longitud + 16;
+    Registro * r= new Registro(longitud);
+    r->initFromChar(&data[posicion]);
+    return r;
+}

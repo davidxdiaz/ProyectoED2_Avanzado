@@ -13,9 +13,11 @@
 #include "listbloquetablas.h"
 #include "bloquecampo.h"
 #include "registro.h"
+#include "Idx_Entry.h"
+#include "BloqueIndice.h"
 using namespace std;
 
-tabla::tabla(char name[20],int i,int pBCampos,int actualBCampos,int pBDatos,int actualBDatos,int nB,DataFile *a)
+tabla::tabla(char name[20],int i,int pBCampos,int actualBCampos,int pBDatos,int actualBDatos,int nB,DataFile *a,int primerBIndice,int actualBIndice)
 {
     archivo=a;
     strncpy(nombre,name,20);
@@ -24,16 +26,19 @@ tabla::tabla(char name[20],int i,int pBCampos,int actualBCampos,int pBDatos,int 
     actualBloqueCampos=actualBCampos;
     primerBloqueDatos=pBDatos;
     actualBloqueDatos=actualBDatos;
+    primerBloqueIndice=primerBIndice;
+    actualBloqueIndice=actualBIndice;
     nBloque=nB;
     sig=0;
     campos= new ListCampos();
     registros= new ListRegistros();
+    indice=new Indice(archivo,primerBloqueIndice,primerBloqueDatos,getTamanoHashTable());
 }
 
 
 char * tabla::toChar()
 {
-    char * data= new char[44];
+    char * data= new char[52];
     int pos=0;
     memcpy(&data[pos],nombre,20);
     pos+=20;
@@ -46,6 +51,10 @@ char * tabla::toChar()
     memcpy(&data[pos],&primerBloqueDatos,4);
     pos+=4;
     memcpy(&data[pos],&actualBloqueDatos,4);
+    pos+=4;
+    memcpy(&data[pos],&primerBloqueIndice,4);
+    pos+=4;
+    memcpy(&data[pos],&actualBloqueIndice,4);
     pos+=4;
     memcpy(&data[pos],&nBloque,4);
     pos+=4;
@@ -67,12 +76,17 @@ void tabla::charToTabla(char * data)
     pos+=4;
     memcpy(&actualBloqueDatos,&data[pos],4);
     pos+=4;
+    memcpy(&primerBloqueIndice,&data[pos],4);
+    pos+=4;
+    memcpy(&actualBloqueIndice,&data[pos],4);
+    pos+=4;
     memcpy(&nBloque,&data[pos],4);
     pos+=4;
 }
 
 void tabla::crearRegistro(ManejadordeBloques * mbloques,Registro *r)
 {
+    Idx_Entry * entry;
     if(primerBloqueDatos==-1)
     {
         Bloque *b = mbloques->asignarNueboBloque();
@@ -83,6 +97,8 @@ void tabla::crearRegistro(ManejadordeBloques * mbloques,Registro *r)
         registros->add(r);
         primerBloqueDatos=b->nBloque;
         actualBloqueDatos=b->nBloque;
+        //Lo agrego a la Hash table
+
         return;
     }
     int actual=primerBloqueDatos;
@@ -263,5 +279,33 @@ void tabla::printTabla()
         }
         cout<<endl;
     }
+}
+
+int tabla::getTamanoHashTable() {
+    int sum=0;
+    int actual=primerBloqueIndice;
+    while(actual!=-1)
+    {
+        BloqueIndice * bloque= new BloqueIndice(archivo,actual);
+        bloque->cargar();
+        sum+=62;
+        actual=bloque->siguiente;
+        delete bloque;
+    }
+    return sum;
+}
+
+Registro * tabla::buscarRegistro(char *id) {
+    Idx_Entry * entry = indice->buscar(id);
+    if(entry==0)
+        return 0;
+    BloqueRegistro * bloque= new BloqueRegistro(archivo,entry->numeroBloque);
+    Registro * registro= bloque->getRegsitro(entry->numeroRR,getLongitudRegistros());
+    for(int c=0;c<campos->cantidad;c++)
+    {
+        campo * defCampo = campos->get(c);
+        registro->campoDatos->get(c)->defCampos=defCampo;
+    }
+    return registro;
 }
 

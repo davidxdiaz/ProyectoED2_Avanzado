@@ -14,7 +14,7 @@ public:
     int actualBIndice;
     bool insertar(char * id,int nBloque,int nRegistroR,ManejadordeBloques * mb);
     Idx_Entry * buscar(char * id);
-    void reHash();
+    void reHash(ManejadordeBloques * mB);
     int hash(char *id);
     int M;
     DataFile * archivo;

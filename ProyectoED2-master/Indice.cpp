@@ -124,3 +124,36 @@ Idx_Entry * Indice::buscar(char * id)
     }
     return 0;
 }
+
+void Indice::reHash(ManejadordeBloques * mB)
+{
+    M=M *2;
+    HashTableEntry * tabla[M];
+    int actual = primerBIndice;
+    while (actual!=-1){
+        BloqueIndice * bloque = new BloqueIndice(archivo,actual);
+        bloque->cargar();
+        for(int c=0;c<bloque->cantidad;c++)
+        {
+            HashTableEntry * tmp= bloque->getEntrada(c);
+            int actualBLLave= tmp->primerBloqueLLave;
+            while (actualBLLave!=-1)
+            {
+                BloqueLlave * bLlave= new BloqueLlave(archivo,actualBLLave);
+                bLlave->cargar();
+                for(int x=0;x<bLlave->cantidad;x++)
+                {
+                    Idx_Entry * idx= bLlave->llaves[x];
+                    insertar(idx->id,idx->numeroBloque,idx->numeroRR,mB);
+                }
+                actualBLLave=bLlave->siguiente;
+                delete  bLlave;
+            }
+        }
+        actual=bloque->siguiente;
+        delete  bloque;
+    }
+
+
+
+}

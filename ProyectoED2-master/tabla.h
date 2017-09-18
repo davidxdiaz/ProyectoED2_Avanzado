@@ -5,11 +5,11 @@
 #include  "registro.h"
 #include "listregistros.h"
 #include "manejadordebloques.h"
-
+#include "Indice.h"
 class tabla
 {
     public:
-        tabla(char name[20],int i,int pBCampos,int actualBCampos,int pBDatos,int actualBDatos,int nB,DataFile * a);
+        tabla(char name[20],int i,int pBCampos,int actualBCampos,int pBDatos,int actualBDatos,int nB,DataFile * a,int primerBIndice,int actualBIndice);
         DataFile * archivo;
         char nombre[20];
         int id;
@@ -33,6 +33,9 @@ class tabla
         Registro * interpretarRegistro(char * data,int longitud);
         int getLongitudRegistros();
         void printTabla();
+        Indice * indice;
+        int getTamanoHashTable();
+        Registro * buscarRegistro(char *id);
 
 
     protected:
