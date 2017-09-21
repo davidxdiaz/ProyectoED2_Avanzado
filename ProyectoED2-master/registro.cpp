@@ -42,7 +42,7 @@ void Registro::printRegistro()
 {
     for(int c=0;c<campoDatos->cantidad;c++)
     {
-        cout<<" "<<campoDatos->get(c)->valor<<" ";
+        cout<<" "<<campoDatos->get(c)->defCampos->nombre<<": "<<campoDatos->get(c)->valor<<endl;
     }
 }
 

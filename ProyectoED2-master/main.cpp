@@ -42,77 +42,51 @@ int main()
         {
             nombre[x+6]=cadena[x];
         }
-
         mtablas->crearTabla(nombre,c,mbloques);
-        int tipo=0;
-        for(int i=0;i<10;i++)
-        {
-            char * nombreC= new char[20];
-            nombreC[0]='C';
-            nombreC[1]='a';
-            nombreC[2]='m';
-            nombreC[3]='p';
-            nombreC[4]='o';
-            nombreC[5]='_';
-            char cadena1[10];
-            sprintf(cadena1, "%d", i);
-            for(int x=0;cadena1[x]!='\0';x++)
-            {
-                nombreC[x+6]=cadena1[x];
-            }
-            if(i==4)
-                tipo=1;
-            if(i==9)
-                tipo=1;
-            mtablas->crearCampo(c,nombreC,tipo,mbloques);
-            tipo=0;
-        }
+        string id="ID";
+        string name="Nombre";
+        string edad="Edad";
+        //ostringstream nom;
+        //ostringstream i;
+        //ostringstream e;
+        char * nom = const_cast<char *>(name.c_str());
+        char * i = const_cast<char *>(id.c_str());
+        char * e = const_cast<char *>(edad.c_str());
+        mtablas->crearCampo(c,i,0,mbloques);
+        mtablas->crearCampo(c,nom,0,mbloques);
+        mtablas->crearCampo(c,e,1,mbloques);
+
     }
-     mtablas->buscarTabla(0)->toString();
-        for(int c=0;c<1;c++)
-        {
-
-            Registro * r= new Registro(mtablas->buscarTabla(c)->getLongitudRegistros());
-            for(int i=0;i<10;i++)
-            {
-                char * datos= new char[20];
-                for(int a=0;a<20;a++)
-                {
-                    datos[a]='\0';
-                }
-                datos[0]='d';
-                datos[1]='a';
-                datos[2]='t';
-                datos[3]='o';
-                datos[4]='_';
-
-                char cadena2[10];
-                for(int a=0;a<10;a++){
-                    cadena2[a]='\0';
-                }
-                sprintf(cadena2, "%d", i);
-                for(int x=0;cadena2[x]!='\0';x++)
-                {
-                    datos[x+5]=cadena2[x];
-                }
-                if(i==4 || i==9)
-                {
-                    datos=new char[20];
-                    sprintf(datos, "%d", i);
-                }
-                CampoDatos * datosN=new CampoDatos(datos,mtablas->buscarTabla(c)->campos->get(i));
-                r->campoDatos->add(datosN);
-
-            }
-            mtablas->addRegistro(c,mbloques,r);
-        }//*/
+    for(int c=0;c<1000;c++)
+    {
+        Registro * r= new Registro(mtablas->buscarTabla(0)->getLongitudRegistros());
+        string id="id";
+        string name="nombre";
+        char edad= (char) (c+48);
+        ostringstream nomb;
+        stringstream idd;
+        ostringstream ed;
+        idd<<id<<'_'<<c;
+        nomb<<name<<'_'<<c;
+        ed<<c;
+        char * nom = const_cast<char *>(nomb.str().c_str());
+        char * i = const_cast<char *>(idd.str().c_str());
+        char * e = const_cast<char *>(ed.str().c_str());
+        CampoDatos * d1=new CampoDatos(i,mtablas->buscarTabla(0)->campos->get(0));
+        CampoDatos * d2=new CampoDatos(nom,mtablas->buscarTabla(0)->campos->get(1));
+        CampoDatos * d3=new CampoDatos(e,mtablas->buscarTabla(0)->campos->get(2));
+        r->campoDatos->add(d1);
+        r->campoDatos->add(d2);
+        r->campoDatos->add(d3);
+        mtablas->addRegistro(0,mbloques,r);
+    }//*/
 
     //Probando la hashTable
     //mtablas->buscarTabla(0)->toString();
     /*BloqueIndice * b = new BloqueIndice(archivo,3);
     b->cargar();
     b->listarElementos();//*/
-    mtablas->buscarTabla(0)->buscarRegistro("dato_0")->printRegistro();
+    mtablas->buscarTabla(0)->buscarRegistro("id_860")->printRegistro();
 
 
     //Probando Json
@@ -122,67 +96,6 @@ int main()
     mtablas->importar(mbloques,0);//*/
 
 
-
-
-
-   //mtablas->buscarTabla(10)->toString();
-    //*/
-    //mtablas->listarTablas();
-  //  mtablas->buscarTabla(1)->printTabla();
     archivo->cerrar();
-
-    /*
-    tmp->primerBloqueCampos=bc->nBloque;
-    tmp->actualBloqueCampos=bc->nBloque;*/
-    /*
-    int op=1;
-    while(op!=0)
-    {
-        cout<<"Ingrese una opcion"<<endl;
-        cout<<"1. Crear Base de Datos"<<endl;
-        cout<<"2. Crear Tabla"<<endl;
-        cout<<"3. Crear Campo"<<endl;
-
-        cin>> op;
-        cout<<endl;
-        if(op==1)
-        {
-             cout<<"Ingrese el path"<<endl;
-             char * path;
-             cin>> path;
-             DataFile * archivo = new DataFile(path);
-        }
-        else if(op==2)
-        {
-             cout<<"Ingrese el path"<<endl;
-             char * path;
-             cin>> path;
-             DataFile * archivo = new DataFile(path);
-             cout<<"Ingrese el nombre de la tabla"<<endl;
-             char name[20];
-             cin>> name;
-             cout<<"Ingrese el ID de la tabla"<<endl;
-             int id;
-             cin>> id;
-             ManejadroTablas * mtablas= new ManejadroTablas(archivo);
-             mtablas->crearTabla(name,id,0,0,0,0);
-        }
-        else if(op==3)
-        {
-             cout<<"Ingrese el path"<<endl;
-             char * path;
-             cin>> path;
-             DataFile * archivo = new DataFile(path);
-             cout<<"Ingrese el nombre de la tabla a la que le asignara el campo"<<endl;
-             char name[20];
-             cin>> name;
-             ManejadroTablas * mtablas= new ManejadroTablas(archivo);
-             tabla * t =mtablas->buscarTabla(name);
-        }
-
-
-
-
-    }*/
     return 0;
 }

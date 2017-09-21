@@ -100,17 +100,18 @@ void tabla::crearRegistro(ManejadordeBloques * mbloques,Registro *r) {
         entry = new Idx_Entry(r->campoDatos->get(0)->valor, b->nBloque, 0);
         manejadorBIndice(mbloques);
         indice->insertar(entry, mbloques);
-
         return;
     }
-    int actual=primerBloqueDatos;
+    int actual=actualBloqueDatos;
     while(actual!=-1)
     {
         BloqueRegistro *br = new BloqueRegistro(archivo,actual);
         br->cargar(r->longitudRegistro);
         int maximo=(int) (496/r->longitudRegistro);
+
         if(br->registros->cantidad < maximo)
         {
+
             entry= new Idx_Entry(r->campoDatos->get(0)->valor,br->nBloque,br->cantidad);
             if(indice->insertar(entry,mbloques))
             {
@@ -119,7 +120,8 @@ void tabla::crearRegistro(ManejadordeBloques * mbloques,Registro *r) {
                 br->escribir();
                 registros->add(r);
             }
-            cout<<"No se pudo agregar el registro debido al id del registro"<<endl;
+            else
+                cout<<"No se pudo agregar el registro debido al id del registro"<<endl;
             return;
             //Tenqo que guardar la tabla o por lo menos el bloqueTabla como tal
         }

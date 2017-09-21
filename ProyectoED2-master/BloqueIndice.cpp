@@ -83,7 +83,6 @@ void BloqueIndice::escribir()
     char * data= this->toChar();
     int pos= nBloque * tamano+20;
     archivo->escribir(data,pos,tamano);
-    cout<<"Escribe bloque indice "<<"nBloque"<<nBloque<<endl;
 }
 
 void BloqueIndice::cargar()
