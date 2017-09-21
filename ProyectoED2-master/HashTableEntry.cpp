@@ -7,8 +7,8 @@
 
 HashTableEntry::HashTableEntry(int p,int a)
 {
-    primerBloqueLLave=-p;
-    actualBloqueLLave=-a;
+    primerBloqueLLave=p;
+    actualBloqueLLave=a;
 }
 
 char * HashTableEntry::toChar()

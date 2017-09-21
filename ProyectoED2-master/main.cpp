@@ -15,6 +15,7 @@
 #include "bloqueregistro.h"
 #include "campo.h"
 #include "campodatos.h"
+#include "BloqueIndice.h"
 using namespace std;
 
 int main()
@@ -26,7 +27,7 @@ int main()
     ManejadroTablas * mtablas=new ManejadroTablas(archivo,mbloques->masterBlock);
 
 
-    for(int c=0;c<1;c++)
+    /*for(int c=0;c<1;c++)
     {
         char * nombre= new char[20];
         nombre[0]='t';
@@ -67,7 +68,7 @@ int main()
             tipo=0;
         }
     }
-
+     mtablas->buscarTabla(0)->toString();
         for(int c=0;c<1;c++)
         {
 
@@ -107,8 +108,11 @@ int main()
         }//*/
 
     //Probando la hashTable
-
-    //mtablas->buscarTabla(0)->buscarRegistro("dato_0")->printRegistro();
+    //mtablas->buscarTabla(0)->toString();
+    /*BloqueIndice * b = new BloqueIndice(archivo,3);
+    b->cargar();
+    b->listarElementos();//*/
+    mtablas->buscarTabla(0)->buscarRegistro("dato_0")->printRegistro();
 
 
     //Probando Json

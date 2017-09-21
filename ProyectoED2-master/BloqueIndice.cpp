@@ -57,6 +57,25 @@ void BloqueIndice::initFromChar(char * data)
     pos+=4;
     memcpy(&cantidad,&data[pos],4);
     pos+=4;
+    for(int c=0;c<62;c++)
+    {
+        char * dataEntry= new char[8];
+        memcpy(dataEntry,&data[pos],8);
+        HashTableEntry * h= new HashTableEntry(-1,-1);
+        h->initFromChar(dataEntry);
+        indice[c]= h;
+        pos+=8;
+    }
+}
+
+void BloqueIndice::listarElementos() {
+    for(int c=0;c<62;c++)
+    {
+        cout<<"Elemento "<<c<<endl;
+        cout<<indice[c]->primerBloqueLLave<<endl<<indice[c]->actualBloqueLLave<<endl<<endl;
+
+    }
+
 }
 
 void BloqueIndice::escribir()
@@ -64,6 +83,7 @@ void BloqueIndice::escribir()
     char * data= this->toChar();
     int pos= nBloque * tamano+20;
     archivo->escribir(data,pos,tamano);
+    cout<<"Escribe bloque indice "<<"nBloque"<<nBloque<<endl;
 }
 
 void BloqueIndice::cargar()
@@ -75,14 +95,5 @@ void BloqueIndice::cargar()
 
 HashTableEntry * BloqueIndice::getEntrada(int p)
 {
-    int pos= nBloque * tamano+20;
-    char * data= archivo->leer(pos,tamano);
-    int posDef= p * 8 +16;
-    int primer,actual;
-    memcpy(&primer,&data[posDef],4);
-    posDef+=4;
-    memcpy(&actual,&data[posDef],4);
-    posDef+=4;
-    HashTableEntry * entry= new HashTableEntry(primer,actual);
-    return entry;
+    return indice[p];
 }

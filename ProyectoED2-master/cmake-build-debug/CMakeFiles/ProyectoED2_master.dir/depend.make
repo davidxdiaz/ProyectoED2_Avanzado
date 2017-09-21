@@ -124,6 +124,8 @@ CMakeFiles/ProyectoED2_master.dir/listtabla.cpp.obj: ../masterblock.h
 CMakeFiles/ProyectoED2_master.dir/listtabla.cpp.obj: ../registro.h
 CMakeFiles/ProyectoED2_master.dir/listtabla.cpp.obj: ../tabla.h
 
+CMakeFiles/ProyectoED2_master.dir/main.cpp.obj: ../BloqueIndice.h
+CMakeFiles/ProyectoED2_master.dir/main.cpp.obj: ../HashTableEntry.h
 CMakeFiles/ProyectoED2_master.dir/main.cpp.obj: ../Idx_Entry.h
 CMakeFiles/ProyectoED2_master.dir/main.cpp.obj: ../Indice.h
 CMakeFiles/ProyectoED2_master.dir/main.cpp.obj: ../bloque.h

@@ -82,6 +82,7 @@ void tabla::charToTabla(char * data)
     pos+=4;
     memcpy(&nBloque,&data[pos],4);
     pos+=4;
+    indice=new Indice(archivo,primerBloqueIndice,actualBloqueIndice,getTamanoHashTable());
 }
 
 void tabla::crearRegistro(ManejadordeBloques * mbloques,Registro *r) {
@@ -97,7 +98,9 @@ void tabla::crearRegistro(ManejadordeBloques * mbloques,Registro *r) {
         actualBloqueDatos = b->nBloque;
         //Lo agrego a la Hash table
         entry = new Idx_Entry(r->campoDatos->get(0)->valor, b->nBloque, 0);
+        manejadorBIndice(mbloques);
         indice->insertar(entry, mbloques);
+
         return;
     }
     int actual=primerBloqueDatos;
@@ -256,7 +259,7 @@ int tabla::getLongitudRegistros()
 
 void tabla::toString()
 {
-    cout<<"Nombre: "<<nombre<<"  ID: "<<id<<"  PrimerBloqueCampo: "<<primerBloqueCampos<<"  ActualBloqueCampo: "<<actualBloqueCampos<<"  PrimerBloqueDatos: "<<primerBloqueDatos<<"  ActualBloqueDatos: "<<actualBloqueDatos<<"  Numero de Bloque: "<<nBloque<<endl<<endl;
+    cout<<"Nombre: "<<nombre<<"  ID: "<<id<<"  PrimerBloqueCampo: "<<primerBloqueCampos<<"  ActualBloqueCampo: "<<actualBloqueCampos<<"  PrimerBloqueDatos: "<<primerBloqueDatos<<"  ActualBloqueDatos: "<<actualBloqueDatos<<"  Numero de Bloque: "<<nBloque<<" pbloqueindice "<<primerBloqueIndice<<" actualbloqueindice"<<actualBloqueIndice<<endl<<endl;
 }
 
 void tabla::printTabla()
@@ -316,5 +319,16 @@ Registro * tabla::buscarRegistro(char *id) {
         registro->campoDatos->get(c)->defCampos=defCampo;
     }
     return registro;
+}
+
+void tabla::manejadorBIndice(ManejadordeBloques * mB)
+{
+    int n= mB->asignarNueboBloque()->nBloque;
+    BloqueIndice * bi = new BloqueIndice(archivo,n);
+    bi->escribir();
+    if(primerBloqueIndice==-1)
+        primerBloqueIndice=n;
+    this->actualBloqueIndice=n;
+    indice->actualizarIndice(primerBloqueIndice,actualBloqueIndice,getTamanoHashTable());
 }
 

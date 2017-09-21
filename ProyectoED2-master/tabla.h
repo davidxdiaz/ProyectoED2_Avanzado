@@ -6,6 +6,7 @@
 #include "listregistros.h"
 #include "manejadordebloques.h"
 #include "Indice.h"
+
 class tabla
 {
     public:
@@ -36,6 +37,7 @@ class tabla
         Indice * indice;
         int getTamanoHashTable();
         Registro * buscarRegistro(char *id);
+        void manejadorBIndice(ManejadordeBloques * mB);
 
 
     protected:

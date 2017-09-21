@@ -24,7 +24,7 @@ public:
     void cargar();
     DataFile * archivo;
     HashTableEntry * getEntrada(int pos);
-
+    void listarElementos();
 
 };
 
