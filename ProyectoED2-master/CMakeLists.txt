@@ -8,6 +8,10 @@ set(SOURCE_FILES
         bloque.h
         bloquecampo.cpp
         bloquecampo.h
+        BloqueIndice.cpp
+        BloqueIndice.h
+        BloqueLlave.cpp
+        BloqueLlave.h
         bloqueregistro.cpp
         bloqueregistro.h
         bloquetabla.cpp
@@ -18,6 +22,12 @@ set(SOURCE_FILES
         campodatos.h
         datafile.cpp
         datafile.h
+        HashTableEntry.cpp
+        HashTableEntry.h
+        Idx_Entry.cpp
+        Idx_Entry.h
+        Indice.cpp
+        Indice.h
         json.hpp
         listbloquetablas.cpp
         listbloquetablas.h
@@ -41,6 +51,6 @@ set(SOURCE_FILES
         registro.cpp
         registro.h
         tabla.cpp
-        tabla.h Indice.cpp Indice.h BloqueIndice.cpp BloqueIndice.h HashTableEntry.cpp HashTableEntry.h Idx_Entry.cpp Idx_Entry.h BloqueLlave.cpp BloqueLlave.h)
+        tabla.h)
 
 add_executable(ProyectoED2_master ${SOURCE_FILES})

@@ -19,6 +19,7 @@ char * HashTableEntry::toChar()
     pos+=4;
     memcpy(&data[pos],&actualBloqueLLave,4);
     pos+=4;
+    return data;
 }
 void HashTableEntry::initFromChar(char * data)
 {

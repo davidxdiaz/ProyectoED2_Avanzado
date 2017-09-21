@@ -104,57 +104,9 @@ CMakeFiles/ProyectoED2_master.dir/bloquecampo.cpp.obj.provides: CMakeFiles/Proye
 CMakeFiles/ProyectoED2_master.dir/bloquecampo.cpp.obj.provides.build: CMakeFiles/ProyectoED2_master.dir/bloquecampo.cpp.obj
 
 
-CMakeFiles/ProyectoED2_master.dir/BloqueIndice.cpp.obj: CMakeFiles/ProyectoED2_master.dir/flags.make
-CMakeFiles/ProyectoED2_master.dir/BloqueIndice.cpp.obj: ../BloqueIndice.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ProyectoED2_master.dir/BloqueIndice.cpp.obj"
-	C:\Users\David\Desktop\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProyectoED2_master.dir\BloqueIndice.cpp.obj -c C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\BloqueIndice.cpp
-
-CMakeFiles/ProyectoED2_master.dir/BloqueIndice.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProyectoED2_master.dir/BloqueIndice.cpp.i"
-	C:\Users\David\Desktop\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\BloqueIndice.cpp > CMakeFiles\ProyectoED2_master.dir\BloqueIndice.cpp.i
-
-CMakeFiles/ProyectoED2_master.dir/BloqueIndice.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProyectoED2_master.dir/BloqueIndice.cpp.s"
-	C:\Users\David\Desktop\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\BloqueIndice.cpp -o CMakeFiles\ProyectoED2_master.dir\BloqueIndice.cpp.s
-
-CMakeFiles/ProyectoED2_master.dir/BloqueIndice.cpp.obj.requires:
-
-.PHONY : CMakeFiles/ProyectoED2_master.dir/BloqueIndice.cpp.obj.requires
-
-CMakeFiles/ProyectoED2_master.dir/BloqueIndice.cpp.obj.provides: CMakeFiles/ProyectoED2_master.dir/BloqueIndice.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\ProyectoED2_master.dir\build.make CMakeFiles/ProyectoED2_master.dir/BloqueIndice.cpp.obj.provides.build
-.PHONY : CMakeFiles/ProyectoED2_master.dir/BloqueIndice.cpp.obj.provides
-
-CMakeFiles/ProyectoED2_master.dir/BloqueIndice.cpp.obj.provides.build: CMakeFiles/ProyectoED2_master.dir/BloqueIndice.cpp.obj
-
-
-CMakeFiles/ProyectoED2_master.dir/BloqueLlave.cpp.obj: CMakeFiles/ProyectoED2_master.dir/flags.make
-CMakeFiles/ProyectoED2_master.dir/BloqueLlave.cpp.obj: ../BloqueLlave.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ProyectoED2_master.dir/BloqueLlave.cpp.obj"
-	C:\Users\David\Desktop\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProyectoED2_master.dir\BloqueLlave.cpp.obj -c C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\BloqueLlave.cpp
-
-CMakeFiles/ProyectoED2_master.dir/BloqueLlave.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProyectoED2_master.dir/BloqueLlave.cpp.i"
-	C:\Users\David\Desktop\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\BloqueLlave.cpp > CMakeFiles\ProyectoED2_master.dir\BloqueLlave.cpp.i
-
-CMakeFiles/ProyectoED2_master.dir/BloqueLlave.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProyectoED2_master.dir/BloqueLlave.cpp.s"
-	C:\Users\David\Desktop\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\BloqueLlave.cpp -o CMakeFiles\ProyectoED2_master.dir\BloqueLlave.cpp.s
-
-CMakeFiles/ProyectoED2_master.dir/BloqueLlave.cpp.obj.requires:
-
-.PHONY : CMakeFiles/ProyectoED2_master.dir/BloqueLlave.cpp.obj.requires
-
-CMakeFiles/ProyectoED2_master.dir/BloqueLlave.cpp.obj.provides: CMakeFiles/ProyectoED2_master.dir/BloqueLlave.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\ProyectoED2_master.dir\build.make CMakeFiles/ProyectoED2_master.dir/BloqueLlave.cpp.obj.provides.build
-.PHONY : CMakeFiles/ProyectoED2_master.dir/BloqueLlave.cpp.obj.provides
-
-CMakeFiles/ProyectoED2_master.dir/BloqueLlave.cpp.obj.provides.build: CMakeFiles/ProyectoED2_master.dir/BloqueLlave.cpp.obj
-
-
 CMakeFiles/ProyectoED2_master.dir/bloqueregistro.cpp.obj: CMakeFiles/ProyectoED2_master.dir/flags.make
 CMakeFiles/ProyectoED2_master.dir/bloqueregistro.cpp.obj: ../bloqueregistro.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ProyectoED2_master.dir/bloqueregistro.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ProyectoED2_master.dir/bloqueregistro.cpp.obj"
 	C:\Users\David\Desktop\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProyectoED2_master.dir\bloqueregistro.cpp.obj -c C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\bloqueregistro.cpp
 
 CMakeFiles/ProyectoED2_master.dir/bloqueregistro.cpp.i: cmake_force
@@ -178,7 +130,7 @@ CMakeFiles/ProyectoED2_master.dir/bloqueregistro.cpp.obj.provides.build: CMakeFi
 
 CMakeFiles/ProyectoED2_master.dir/bloquetabla.cpp.obj: CMakeFiles/ProyectoED2_master.dir/flags.make
 CMakeFiles/ProyectoED2_master.dir/bloquetabla.cpp.obj: ../bloquetabla.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ProyectoED2_master.dir/bloquetabla.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ProyectoED2_master.dir/bloquetabla.cpp.obj"
 	C:\Users\David\Desktop\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProyectoED2_master.dir\bloquetabla.cpp.obj -c C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\bloquetabla.cpp
 
 CMakeFiles/ProyectoED2_master.dir/bloquetabla.cpp.i: cmake_force
@@ -202,7 +154,7 @@ CMakeFiles/ProyectoED2_master.dir/bloquetabla.cpp.obj.provides.build: CMakeFiles
 
 CMakeFiles/ProyectoED2_master.dir/campo.cpp.obj: CMakeFiles/ProyectoED2_master.dir/flags.make
 CMakeFiles/ProyectoED2_master.dir/campo.cpp.obj: ../campo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ProyectoED2_master.dir/campo.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ProyectoED2_master.dir/campo.cpp.obj"
 	C:\Users\David\Desktop\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProyectoED2_master.dir\campo.cpp.obj -c C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\campo.cpp
 
 CMakeFiles/ProyectoED2_master.dir/campo.cpp.i: cmake_force
@@ -226,7 +178,7 @@ CMakeFiles/ProyectoED2_master.dir/campo.cpp.obj.provides.build: CMakeFiles/Proye
 
 CMakeFiles/ProyectoED2_master.dir/campodatos.cpp.obj: CMakeFiles/ProyectoED2_master.dir/flags.make
 CMakeFiles/ProyectoED2_master.dir/campodatos.cpp.obj: ../campodatos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ProyectoED2_master.dir/campodatos.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ProyectoED2_master.dir/campodatos.cpp.obj"
 	C:\Users\David\Desktop\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProyectoED2_master.dir\campodatos.cpp.obj -c C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\campodatos.cpp
 
 CMakeFiles/ProyectoED2_master.dir/campodatos.cpp.i: cmake_force
@@ -250,7 +202,7 @@ CMakeFiles/ProyectoED2_master.dir/campodatos.cpp.obj.provides.build: CMakeFiles/
 
 CMakeFiles/ProyectoED2_master.dir/datafile.cpp.obj: CMakeFiles/ProyectoED2_master.dir/flags.make
 CMakeFiles/ProyectoED2_master.dir/datafile.cpp.obj: ../datafile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ProyectoED2_master.dir/datafile.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ProyectoED2_master.dir/datafile.cpp.obj"
 	C:\Users\David\Desktop\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProyectoED2_master.dir\datafile.cpp.obj -c C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\datafile.cpp
 
 CMakeFiles/ProyectoED2_master.dir/datafile.cpp.i: cmake_force
@@ -272,81 +224,9 @@ CMakeFiles/ProyectoED2_master.dir/datafile.cpp.obj.provides: CMakeFiles/Proyecto
 CMakeFiles/ProyectoED2_master.dir/datafile.cpp.obj.provides.build: CMakeFiles/ProyectoED2_master.dir/datafile.cpp.obj
 
 
-CMakeFiles/ProyectoED2_master.dir/HashTableEntry.cpp.obj: CMakeFiles/ProyectoED2_master.dir/flags.make
-CMakeFiles/ProyectoED2_master.dir/HashTableEntry.cpp.obj: ../HashTableEntry.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ProyectoED2_master.dir/HashTableEntry.cpp.obj"
-	C:\Users\David\Desktop\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProyectoED2_master.dir\HashTableEntry.cpp.obj -c C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\HashTableEntry.cpp
-
-CMakeFiles/ProyectoED2_master.dir/HashTableEntry.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProyectoED2_master.dir/HashTableEntry.cpp.i"
-	C:\Users\David\Desktop\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\HashTableEntry.cpp > CMakeFiles\ProyectoED2_master.dir\HashTableEntry.cpp.i
-
-CMakeFiles/ProyectoED2_master.dir/HashTableEntry.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProyectoED2_master.dir/HashTableEntry.cpp.s"
-	C:\Users\David\Desktop\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\HashTableEntry.cpp -o CMakeFiles\ProyectoED2_master.dir\HashTableEntry.cpp.s
-
-CMakeFiles/ProyectoED2_master.dir/HashTableEntry.cpp.obj.requires:
-
-.PHONY : CMakeFiles/ProyectoED2_master.dir/HashTableEntry.cpp.obj.requires
-
-CMakeFiles/ProyectoED2_master.dir/HashTableEntry.cpp.obj.provides: CMakeFiles/ProyectoED2_master.dir/HashTableEntry.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\ProyectoED2_master.dir\build.make CMakeFiles/ProyectoED2_master.dir/HashTableEntry.cpp.obj.provides.build
-.PHONY : CMakeFiles/ProyectoED2_master.dir/HashTableEntry.cpp.obj.provides
-
-CMakeFiles/ProyectoED2_master.dir/HashTableEntry.cpp.obj.provides.build: CMakeFiles/ProyectoED2_master.dir/HashTableEntry.cpp.obj
-
-
-CMakeFiles/ProyectoED2_master.dir/Idx_Entry.cpp.obj: CMakeFiles/ProyectoED2_master.dir/flags.make
-CMakeFiles/ProyectoED2_master.dir/Idx_Entry.cpp.obj: ../Idx_Entry.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ProyectoED2_master.dir/Idx_Entry.cpp.obj"
-	C:\Users\David\Desktop\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProyectoED2_master.dir\Idx_Entry.cpp.obj -c C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\Idx_Entry.cpp
-
-CMakeFiles/ProyectoED2_master.dir/Idx_Entry.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProyectoED2_master.dir/Idx_Entry.cpp.i"
-	C:\Users\David\Desktop\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\Idx_Entry.cpp > CMakeFiles\ProyectoED2_master.dir\Idx_Entry.cpp.i
-
-CMakeFiles/ProyectoED2_master.dir/Idx_Entry.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProyectoED2_master.dir/Idx_Entry.cpp.s"
-	C:\Users\David\Desktop\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\Idx_Entry.cpp -o CMakeFiles\ProyectoED2_master.dir\Idx_Entry.cpp.s
-
-CMakeFiles/ProyectoED2_master.dir/Idx_Entry.cpp.obj.requires:
-
-.PHONY : CMakeFiles/ProyectoED2_master.dir/Idx_Entry.cpp.obj.requires
-
-CMakeFiles/ProyectoED2_master.dir/Idx_Entry.cpp.obj.provides: CMakeFiles/ProyectoED2_master.dir/Idx_Entry.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\ProyectoED2_master.dir\build.make CMakeFiles/ProyectoED2_master.dir/Idx_Entry.cpp.obj.provides.build
-.PHONY : CMakeFiles/ProyectoED2_master.dir/Idx_Entry.cpp.obj.provides
-
-CMakeFiles/ProyectoED2_master.dir/Idx_Entry.cpp.obj.provides.build: CMakeFiles/ProyectoED2_master.dir/Idx_Entry.cpp.obj
-
-
-CMakeFiles/ProyectoED2_master.dir/Indice.cpp.obj: CMakeFiles/ProyectoED2_master.dir/flags.make
-CMakeFiles/ProyectoED2_master.dir/Indice.cpp.obj: ../Indice.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/ProyectoED2_master.dir/Indice.cpp.obj"
-	C:\Users\David\Desktop\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProyectoED2_master.dir\Indice.cpp.obj -c C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\Indice.cpp
-
-CMakeFiles/ProyectoED2_master.dir/Indice.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProyectoED2_master.dir/Indice.cpp.i"
-	C:\Users\David\Desktop\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\Indice.cpp > CMakeFiles\ProyectoED2_master.dir\Indice.cpp.i
-
-CMakeFiles/ProyectoED2_master.dir/Indice.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProyectoED2_master.dir/Indice.cpp.s"
-	C:\Users\David\Desktop\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\Indice.cpp -o CMakeFiles\ProyectoED2_master.dir\Indice.cpp.s
-
-CMakeFiles/ProyectoED2_master.dir/Indice.cpp.obj.requires:
-
-.PHONY : CMakeFiles/ProyectoED2_master.dir/Indice.cpp.obj.requires
-
-CMakeFiles/ProyectoED2_master.dir/Indice.cpp.obj.provides: CMakeFiles/ProyectoED2_master.dir/Indice.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\ProyectoED2_master.dir\build.make CMakeFiles/ProyectoED2_master.dir/Indice.cpp.obj.provides.build
-.PHONY : CMakeFiles/ProyectoED2_master.dir/Indice.cpp.obj.provides
-
-CMakeFiles/ProyectoED2_master.dir/Indice.cpp.obj.provides.build: CMakeFiles/ProyectoED2_master.dir/Indice.cpp.obj
-
-
 CMakeFiles/ProyectoED2_master.dir/listbloquetablas.cpp.obj: CMakeFiles/ProyectoED2_master.dir/flags.make
 CMakeFiles/ProyectoED2_master.dir/listbloquetablas.cpp.obj: ../listbloquetablas.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/ProyectoED2_master.dir/listbloquetablas.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ProyectoED2_master.dir/listbloquetablas.cpp.obj"
 	C:\Users\David\Desktop\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProyectoED2_master.dir\listbloquetablas.cpp.obj -c C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\listbloquetablas.cpp
 
 CMakeFiles/ProyectoED2_master.dir/listbloquetablas.cpp.i: cmake_force
@@ -370,7 +250,7 @@ CMakeFiles/ProyectoED2_master.dir/listbloquetablas.cpp.obj.provides.build: CMake
 
 CMakeFiles/ProyectoED2_master.dir/listcampodatos.cpp.obj: CMakeFiles/ProyectoED2_master.dir/flags.make
 CMakeFiles/ProyectoED2_master.dir/listcampodatos.cpp.obj: ../listcampodatos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/ProyectoED2_master.dir/listcampodatos.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ProyectoED2_master.dir/listcampodatos.cpp.obj"
 	C:\Users\David\Desktop\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProyectoED2_master.dir\listcampodatos.cpp.obj -c C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\listcampodatos.cpp
 
 CMakeFiles/ProyectoED2_master.dir/listcampodatos.cpp.i: cmake_force
@@ -394,7 +274,7 @@ CMakeFiles/ProyectoED2_master.dir/listcampodatos.cpp.obj.provides.build: CMakeFi
 
 CMakeFiles/ProyectoED2_master.dir/listcampos.cpp.obj: CMakeFiles/ProyectoED2_master.dir/flags.make
 CMakeFiles/ProyectoED2_master.dir/listcampos.cpp.obj: ../listcampos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/ProyectoED2_master.dir/listcampos.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ProyectoED2_master.dir/listcampos.cpp.obj"
 	C:\Users\David\Desktop\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProyectoED2_master.dir\listcampos.cpp.obj -c C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\listcampos.cpp
 
 CMakeFiles/ProyectoED2_master.dir/listcampos.cpp.i: cmake_force
@@ -418,7 +298,7 @@ CMakeFiles/ProyectoED2_master.dir/listcampos.cpp.obj.provides.build: CMakeFiles/
 
 CMakeFiles/ProyectoED2_master.dir/listregistros.cpp.obj: CMakeFiles/ProyectoED2_master.dir/flags.make
 CMakeFiles/ProyectoED2_master.dir/listregistros.cpp.obj: ../listregistros.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/ProyectoED2_master.dir/listregistros.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ProyectoED2_master.dir/listregistros.cpp.obj"
 	C:\Users\David\Desktop\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProyectoED2_master.dir\listregistros.cpp.obj -c C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\listregistros.cpp
 
 CMakeFiles/ProyectoED2_master.dir/listregistros.cpp.i: cmake_force
@@ -442,7 +322,7 @@ CMakeFiles/ProyectoED2_master.dir/listregistros.cpp.obj.provides.build: CMakeFil
 
 CMakeFiles/ProyectoED2_master.dir/listtabla.cpp.obj: CMakeFiles/ProyectoED2_master.dir/flags.make
 CMakeFiles/ProyectoED2_master.dir/listtabla.cpp.obj: ../listtabla.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/ProyectoED2_master.dir/listtabla.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/ProyectoED2_master.dir/listtabla.cpp.obj"
 	C:\Users\David\Desktop\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProyectoED2_master.dir\listtabla.cpp.obj -c C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\listtabla.cpp
 
 CMakeFiles/ProyectoED2_master.dir/listtabla.cpp.i: cmake_force
@@ -466,7 +346,7 @@ CMakeFiles/ProyectoED2_master.dir/listtabla.cpp.obj.provides.build: CMakeFiles/P
 
 CMakeFiles/ProyectoED2_master.dir/main.cpp.obj: CMakeFiles/ProyectoED2_master.dir/flags.make
 CMakeFiles/ProyectoED2_master.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/ProyectoED2_master.dir/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/ProyectoED2_master.dir/main.cpp.obj"
 	C:\Users\David\Desktop\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProyectoED2_master.dir\main.cpp.obj -c C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\main.cpp
 
 CMakeFiles/ProyectoED2_master.dir/main.cpp.i: cmake_force
@@ -490,7 +370,7 @@ CMakeFiles/ProyectoED2_master.dir/main.cpp.obj.provides.build: CMakeFiles/Proyec
 
 CMakeFiles/ProyectoED2_master.dir/manejadordebloques.cpp.obj: CMakeFiles/ProyectoED2_master.dir/flags.make
 CMakeFiles/ProyectoED2_master.dir/manejadordebloques.cpp.obj: ../manejadordebloques.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/ProyectoED2_master.dir/manejadordebloques.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/ProyectoED2_master.dir/manejadordebloques.cpp.obj"
 	C:\Users\David\Desktop\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProyectoED2_master.dir\manejadordebloques.cpp.obj -c C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\manejadordebloques.cpp
 
 CMakeFiles/ProyectoED2_master.dir/manejadordebloques.cpp.i: cmake_force
@@ -514,7 +394,7 @@ CMakeFiles/ProyectoED2_master.dir/manejadordebloques.cpp.obj.provides.build: CMa
 
 CMakeFiles/ProyectoED2_master.dir/manejadorjson.cpp.obj: CMakeFiles/ProyectoED2_master.dir/flags.make
 CMakeFiles/ProyectoED2_master.dir/manejadorjson.cpp.obj: ../manejadorjson.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/ProyectoED2_master.dir/manejadorjson.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/ProyectoED2_master.dir/manejadorjson.cpp.obj"
 	C:\Users\David\Desktop\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProyectoED2_master.dir\manejadorjson.cpp.obj -c C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\manejadorjson.cpp
 
 CMakeFiles/ProyectoED2_master.dir/manejadorjson.cpp.i: cmake_force
@@ -538,7 +418,7 @@ CMakeFiles/ProyectoED2_master.dir/manejadorjson.cpp.obj.provides.build: CMakeFil
 
 CMakeFiles/ProyectoED2_master.dir/manejadrotablas.cpp.obj: CMakeFiles/ProyectoED2_master.dir/flags.make
 CMakeFiles/ProyectoED2_master.dir/manejadrotablas.cpp.obj: ../manejadrotablas.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/ProyectoED2_master.dir/manejadrotablas.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/ProyectoED2_master.dir/manejadrotablas.cpp.obj"
 	C:\Users\David\Desktop\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProyectoED2_master.dir\manejadrotablas.cpp.obj -c C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\manejadrotablas.cpp
 
 CMakeFiles/ProyectoED2_master.dir/manejadrotablas.cpp.i: cmake_force
@@ -562,7 +442,7 @@ CMakeFiles/ProyectoED2_master.dir/manejadrotablas.cpp.obj.provides.build: CMakeF
 
 CMakeFiles/ProyectoED2_master.dir/masterblock.cpp.obj: CMakeFiles/ProyectoED2_master.dir/flags.make
 CMakeFiles/ProyectoED2_master.dir/masterblock.cpp.obj: ../masterblock.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/ProyectoED2_master.dir/masterblock.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/ProyectoED2_master.dir/masterblock.cpp.obj"
 	C:\Users\David\Desktop\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProyectoED2_master.dir\masterblock.cpp.obj -c C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\masterblock.cpp
 
 CMakeFiles/ProyectoED2_master.dir/masterblock.cpp.i: cmake_force
@@ -586,7 +466,7 @@ CMakeFiles/ProyectoED2_master.dir/masterblock.cpp.obj.provides.build: CMakeFiles
 
 CMakeFiles/ProyectoED2_master.dir/registro.cpp.obj: CMakeFiles/ProyectoED2_master.dir/flags.make
 CMakeFiles/ProyectoED2_master.dir/registro.cpp.obj: ../registro.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/ProyectoED2_master.dir/registro.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/ProyectoED2_master.dir/registro.cpp.obj"
 	C:\Users\David\Desktop\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProyectoED2_master.dir\registro.cpp.obj -c C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\registro.cpp
 
 CMakeFiles/ProyectoED2_master.dir/registro.cpp.i: cmake_force
@@ -610,7 +490,7 @@ CMakeFiles/ProyectoED2_master.dir/registro.cpp.obj.provides.build: CMakeFiles/Pr
 
 CMakeFiles/ProyectoED2_master.dir/tabla.cpp.obj: CMakeFiles/ProyectoED2_master.dir/flags.make
 CMakeFiles/ProyectoED2_master.dir/tabla.cpp.obj: ../tabla.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/ProyectoED2_master.dir/tabla.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/ProyectoED2_master.dir/tabla.cpp.obj"
 	C:\Users\David\Desktop\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProyectoED2_master.dir\tabla.cpp.obj -c C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\tabla.cpp
 
 CMakeFiles/ProyectoED2_master.dir/tabla.cpp.i: cmake_force
@@ -632,20 +512,135 @@ CMakeFiles/ProyectoED2_master.dir/tabla.cpp.obj.provides: CMakeFiles/ProyectoED2
 CMakeFiles/ProyectoED2_master.dir/tabla.cpp.obj.provides.build: CMakeFiles/ProyectoED2_master.dir/tabla.cpp.obj
 
 
+CMakeFiles/ProyectoED2_master.dir/Indice.cpp.obj: CMakeFiles/ProyectoED2_master.dir/flags.make
+CMakeFiles/ProyectoED2_master.dir/Indice.cpp.obj: ../Indice.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/ProyectoED2_master.dir/Indice.cpp.obj"
+	C:\Users\David\Desktop\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProyectoED2_master.dir\Indice.cpp.obj -c C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\Indice.cpp
+
+CMakeFiles/ProyectoED2_master.dir/Indice.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProyectoED2_master.dir/Indice.cpp.i"
+	C:\Users\David\Desktop\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\Indice.cpp > CMakeFiles\ProyectoED2_master.dir\Indice.cpp.i
+
+CMakeFiles/ProyectoED2_master.dir/Indice.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProyectoED2_master.dir/Indice.cpp.s"
+	C:\Users\David\Desktop\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\Indice.cpp -o CMakeFiles\ProyectoED2_master.dir\Indice.cpp.s
+
+CMakeFiles/ProyectoED2_master.dir/Indice.cpp.obj.requires:
+
+.PHONY : CMakeFiles/ProyectoED2_master.dir/Indice.cpp.obj.requires
+
+CMakeFiles/ProyectoED2_master.dir/Indice.cpp.obj.provides: CMakeFiles/ProyectoED2_master.dir/Indice.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\ProyectoED2_master.dir\build.make CMakeFiles/ProyectoED2_master.dir/Indice.cpp.obj.provides.build
+.PHONY : CMakeFiles/ProyectoED2_master.dir/Indice.cpp.obj.provides
+
+CMakeFiles/ProyectoED2_master.dir/Indice.cpp.obj.provides.build: CMakeFiles/ProyectoED2_master.dir/Indice.cpp.obj
+
+
+CMakeFiles/ProyectoED2_master.dir/BloqueIndice.cpp.obj: CMakeFiles/ProyectoED2_master.dir/flags.make
+CMakeFiles/ProyectoED2_master.dir/BloqueIndice.cpp.obj: ../BloqueIndice.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/ProyectoED2_master.dir/BloqueIndice.cpp.obj"
+	C:\Users\David\Desktop\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProyectoED2_master.dir\BloqueIndice.cpp.obj -c C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\BloqueIndice.cpp
+
+CMakeFiles/ProyectoED2_master.dir/BloqueIndice.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProyectoED2_master.dir/BloqueIndice.cpp.i"
+	C:\Users\David\Desktop\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\BloqueIndice.cpp > CMakeFiles\ProyectoED2_master.dir\BloqueIndice.cpp.i
+
+CMakeFiles/ProyectoED2_master.dir/BloqueIndice.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProyectoED2_master.dir/BloqueIndice.cpp.s"
+	C:\Users\David\Desktop\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\BloqueIndice.cpp -o CMakeFiles\ProyectoED2_master.dir\BloqueIndice.cpp.s
+
+CMakeFiles/ProyectoED2_master.dir/BloqueIndice.cpp.obj.requires:
+
+.PHONY : CMakeFiles/ProyectoED2_master.dir/BloqueIndice.cpp.obj.requires
+
+CMakeFiles/ProyectoED2_master.dir/BloqueIndice.cpp.obj.provides: CMakeFiles/ProyectoED2_master.dir/BloqueIndice.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\ProyectoED2_master.dir\build.make CMakeFiles/ProyectoED2_master.dir/BloqueIndice.cpp.obj.provides.build
+.PHONY : CMakeFiles/ProyectoED2_master.dir/BloqueIndice.cpp.obj.provides
+
+CMakeFiles/ProyectoED2_master.dir/BloqueIndice.cpp.obj.provides.build: CMakeFiles/ProyectoED2_master.dir/BloqueIndice.cpp.obj
+
+
+CMakeFiles/ProyectoED2_master.dir/HashTableEntry.cpp.obj: CMakeFiles/ProyectoED2_master.dir/flags.make
+CMakeFiles/ProyectoED2_master.dir/HashTableEntry.cpp.obj: ../HashTableEntry.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/ProyectoED2_master.dir/HashTableEntry.cpp.obj"
+	C:\Users\David\Desktop\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProyectoED2_master.dir\HashTableEntry.cpp.obj -c C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\HashTableEntry.cpp
+
+CMakeFiles/ProyectoED2_master.dir/HashTableEntry.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProyectoED2_master.dir/HashTableEntry.cpp.i"
+	C:\Users\David\Desktop\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\HashTableEntry.cpp > CMakeFiles\ProyectoED2_master.dir\HashTableEntry.cpp.i
+
+CMakeFiles/ProyectoED2_master.dir/HashTableEntry.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProyectoED2_master.dir/HashTableEntry.cpp.s"
+	C:\Users\David\Desktop\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\HashTableEntry.cpp -o CMakeFiles\ProyectoED2_master.dir\HashTableEntry.cpp.s
+
+CMakeFiles/ProyectoED2_master.dir/HashTableEntry.cpp.obj.requires:
+
+.PHONY : CMakeFiles/ProyectoED2_master.dir/HashTableEntry.cpp.obj.requires
+
+CMakeFiles/ProyectoED2_master.dir/HashTableEntry.cpp.obj.provides: CMakeFiles/ProyectoED2_master.dir/HashTableEntry.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\ProyectoED2_master.dir\build.make CMakeFiles/ProyectoED2_master.dir/HashTableEntry.cpp.obj.provides.build
+.PHONY : CMakeFiles/ProyectoED2_master.dir/HashTableEntry.cpp.obj.provides
+
+CMakeFiles/ProyectoED2_master.dir/HashTableEntry.cpp.obj.provides.build: CMakeFiles/ProyectoED2_master.dir/HashTableEntry.cpp.obj
+
+
+CMakeFiles/ProyectoED2_master.dir/Idx_Entry.cpp.obj: CMakeFiles/ProyectoED2_master.dir/flags.make
+CMakeFiles/ProyectoED2_master.dir/Idx_Entry.cpp.obj: ../Idx_Entry.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/ProyectoED2_master.dir/Idx_Entry.cpp.obj"
+	C:\Users\David\Desktop\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProyectoED2_master.dir\Idx_Entry.cpp.obj -c C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\Idx_Entry.cpp
+
+CMakeFiles/ProyectoED2_master.dir/Idx_Entry.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProyectoED2_master.dir/Idx_Entry.cpp.i"
+	C:\Users\David\Desktop\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\Idx_Entry.cpp > CMakeFiles\ProyectoED2_master.dir\Idx_Entry.cpp.i
+
+CMakeFiles/ProyectoED2_master.dir/Idx_Entry.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProyectoED2_master.dir/Idx_Entry.cpp.s"
+	C:\Users\David\Desktop\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\Idx_Entry.cpp -o CMakeFiles\ProyectoED2_master.dir\Idx_Entry.cpp.s
+
+CMakeFiles/ProyectoED2_master.dir/Idx_Entry.cpp.obj.requires:
+
+.PHONY : CMakeFiles/ProyectoED2_master.dir/Idx_Entry.cpp.obj.requires
+
+CMakeFiles/ProyectoED2_master.dir/Idx_Entry.cpp.obj.provides: CMakeFiles/ProyectoED2_master.dir/Idx_Entry.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\ProyectoED2_master.dir\build.make CMakeFiles/ProyectoED2_master.dir/Idx_Entry.cpp.obj.provides.build
+.PHONY : CMakeFiles/ProyectoED2_master.dir/Idx_Entry.cpp.obj.provides
+
+CMakeFiles/ProyectoED2_master.dir/Idx_Entry.cpp.obj.provides.build: CMakeFiles/ProyectoED2_master.dir/Idx_Entry.cpp.obj
+
+
+CMakeFiles/ProyectoED2_master.dir/BloqueLlave.cpp.obj: CMakeFiles/ProyectoED2_master.dir/flags.make
+CMakeFiles/ProyectoED2_master.dir/BloqueLlave.cpp.obj: ../BloqueLlave.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/ProyectoED2_master.dir/BloqueLlave.cpp.obj"
+	C:\Users\David\Desktop\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProyectoED2_master.dir\BloqueLlave.cpp.obj -c C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\BloqueLlave.cpp
+
+CMakeFiles/ProyectoED2_master.dir/BloqueLlave.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProyectoED2_master.dir/BloqueLlave.cpp.i"
+	C:\Users\David\Desktop\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\BloqueLlave.cpp > CMakeFiles\ProyectoED2_master.dir\BloqueLlave.cpp.i
+
+CMakeFiles/ProyectoED2_master.dir/BloqueLlave.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProyectoED2_master.dir/BloqueLlave.cpp.s"
+	C:\Users\David\Desktop\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\David\Downloads\ProyectoED2-master\ProyectoED2-master\BloqueLlave.cpp -o CMakeFiles\ProyectoED2_master.dir\BloqueLlave.cpp.s
+
+CMakeFiles/ProyectoED2_master.dir/BloqueLlave.cpp.obj.requires:
+
+.PHONY : CMakeFiles/ProyectoED2_master.dir/BloqueLlave.cpp.obj.requires
+
+CMakeFiles/ProyectoED2_master.dir/BloqueLlave.cpp.obj.provides: CMakeFiles/ProyectoED2_master.dir/BloqueLlave.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\ProyectoED2_master.dir\build.make CMakeFiles/ProyectoED2_master.dir/BloqueLlave.cpp.obj.provides.build
+.PHONY : CMakeFiles/ProyectoED2_master.dir/BloqueLlave.cpp.obj.provides
+
+CMakeFiles/ProyectoED2_master.dir/BloqueLlave.cpp.obj.provides.build: CMakeFiles/ProyectoED2_master.dir/BloqueLlave.cpp.obj
+
+
 # Object files for target ProyectoED2_master
 ProyectoED2_master_OBJECTS = \
 "CMakeFiles/ProyectoED2_master.dir/bloque.cpp.obj" \
 "CMakeFiles/ProyectoED2_master.dir/bloquecampo.cpp.obj" \
-"CMakeFiles/ProyectoED2_master.dir/BloqueIndice.cpp.obj" \
-"CMakeFiles/ProyectoED2_master.dir/BloqueLlave.cpp.obj" \
 "CMakeFiles/ProyectoED2_master.dir/bloqueregistro.cpp.obj" \
 "CMakeFiles/ProyectoED2_master.dir/bloquetabla.cpp.obj" \
 "CMakeFiles/ProyectoED2_master.dir/campo.cpp.obj" \
 "CMakeFiles/ProyectoED2_master.dir/campodatos.cpp.obj" \
 "CMakeFiles/ProyectoED2_master.dir/datafile.cpp.obj" \
-"CMakeFiles/ProyectoED2_master.dir/HashTableEntry.cpp.obj" \
-"CMakeFiles/ProyectoED2_master.dir/Idx_Entry.cpp.obj" \
-"CMakeFiles/ProyectoED2_master.dir/Indice.cpp.obj" \
 "CMakeFiles/ProyectoED2_master.dir/listbloquetablas.cpp.obj" \
 "CMakeFiles/ProyectoED2_master.dir/listcampodatos.cpp.obj" \
 "CMakeFiles/ProyectoED2_master.dir/listcampos.cpp.obj" \
@@ -657,23 +652,23 @@ ProyectoED2_master_OBJECTS = \
 "CMakeFiles/ProyectoED2_master.dir/manejadrotablas.cpp.obj" \
 "CMakeFiles/ProyectoED2_master.dir/masterblock.cpp.obj" \
 "CMakeFiles/ProyectoED2_master.dir/registro.cpp.obj" \
-"CMakeFiles/ProyectoED2_master.dir/tabla.cpp.obj"
+"CMakeFiles/ProyectoED2_master.dir/tabla.cpp.obj" \
+"CMakeFiles/ProyectoED2_master.dir/Indice.cpp.obj" \
+"CMakeFiles/ProyectoED2_master.dir/BloqueIndice.cpp.obj" \
+"CMakeFiles/ProyectoED2_master.dir/HashTableEntry.cpp.obj" \
+"CMakeFiles/ProyectoED2_master.dir/Idx_Entry.cpp.obj" \
+"CMakeFiles/ProyectoED2_master.dir/BloqueLlave.cpp.obj"
 
 # External object files for target ProyectoED2_master
 ProyectoED2_master_EXTERNAL_OBJECTS =
 
 ProyectoED2_master.exe: CMakeFiles/ProyectoED2_master.dir/bloque.cpp.obj
 ProyectoED2_master.exe: CMakeFiles/ProyectoED2_master.dir/bloquecampo.cpp.obj
-ProyectoED2_master.exe: CMakeFiles/ProyectoED2_master.dir/BloqueIndice.cpp.obj
-ProyectoED2_master.exe: CMakeFiles/ProyectoED2_master.dir/BloqueLlave.cpp.obj
 ProyectoED2_master.exe: CMakeFiles/ProyectoED2_master.dir/bloqueregistro.cpp.obj
 ProyectoED2_master.exe: CMakeFiles/ProyectoED2_master.dir/bloquetabla.cpp.obj
 ProyectoED2_master.exe: CMakeFiles/ProyectoED2_master.dir/campo.cpp.obj
 ProyectoED2_master.exe: CMakeFiles/ProyectoED2_master.dir/campodatos.cpp.obj
 ProyectoED2_master.exe: CMakeFiles/ProyectoED2_master.dir/datafile.cpp.obj
-ProyectoED2_master.exe: CMakeFiles/ProyectoED2_master.dir/HashTableEntry.cpp.obj
-ProyectoED2_master.exe: CMakeFiles/ProyectoED2_master.dir/Idx_Entry.cpp.obj
-ProyectoED2_master.exe: CMakeFiles/ProyectoED2_master.dir/Indice.cpp.obj
 ProyectoED2_master.exe: CMakeFiles/ProyectoED2_master.dir/listbloquetablas.cpp.obj
 ProyectoED2_master.exe: CMakeFiles/ProyectoED2_master.dir/listcampodatos.cpp.obj
 ProyectoED2_master.exe: CMakeFiles/ProyectoED2_master.dir/listcampos.cpp.obj
@@ -686,6 +681,11 @@ ProyectoED2_master.exe: CMakeFiles/ProyectoED2_master.dir/manejadrotablas.cpp.ob
 ProyectoED2_master.exe: CMakeFiles/ProyectoED2_master.dir/masterblock.cpp.obj
 ProyectoED2_master.exe: CMakeFiles/ProyectoED2_master.dir/registro.cpp.obj
 ProyectoED2_master.exe: CMakeFiles/ProyectoED2_master.dir/tabla.cpp.obj
+ProyectoED2_master.exe: CMakeFiles/ProyectoED2_master.dir/Indice.cpp.obj
+ProyectoED2_master.exe: CMakeFiles/ProyectoED2_master.dir/BloqueIndice.cpp.obj
+ProyectoED2_master.exe: CMakeFiles/ProyectoED2_master.dir/HashTableEntry.cpp.obj
+ProyectoED2_master.exe: CMakeFiles/ProyectoED2_master.dir/Idx_Entry.cpp.obj
+ProyectoED2_master.exe: CMakeFiles/ProyectoED2_master.dir/BloqueLlave.cpp.obj
 ProyectoED2_master.exe: CMakeFiles/ProyectoED2_master.dir/build.make
 ProyectoED2_master.exe: CMakeFiles/ProyectoED2_master.dir/linklibs.rsp
 ProyectoED2_master.exe: CMakeFiles/ProyectoED2_master.dir/objects1.rsp
@@ -700,16 +700,11 @@ CMakeFiles/ProyectoED2_master.dir/build: ProyectoED2_master.exe
 
 CMakeFiles/ProyectoED2_master.dir/requires: CMakeFiles/ProyectoED2_master.dir/bloque.cpp.obj.requires
 CMakeFiles/ProyectoED2_master.dir/requires: CMakeFiles/ProyectoED2_master.dir/bloquecampo.cpp.obj.requires
-CMakeFiles/ProyectoED2_master.dir/requires: CMakeFiles/ProyectoED2_master.dir/BloqueIndice.cpp.obj.requires
-CMakeFiles/ProyectoED2_master.dir/requires: CMakeFiles/ProyectoED2_master.dir/BloqueLlave.cpp.obj.requires
 CMakeFiles/ProyectoED2_master.dir/requires: CMakeFiles/ProyectoED2_master.dir/bloqueregistro.cpp.obj.requires
 CMakeFiles/ProyectoED2_master.dir/requires: CMakeFiles/ProyectoED2_master.dir/bloquetabla.cpp.obj.requires
 CMakeFiles/ProyectoED2_master.dir/requires: CMakeFiles/ProyectoED2_master.dir/campo.cpp.obj.requires
 CMakeFiles/ProyectoED2_master.dir/requires: CMakeFiles/ProyectoED2_master.dir/campodatos.cpp.obj.requires
 CMakeFiles/ProyectoED2_master.dir/requires: CMakeFiles/ProyectoED2_master.dir/datafile.cpp.obj.requires
-CMakeFiles/ProyectoED2_master.dir/requires: CMakeFiles/ProyectoED2_master.dir/HashTableEntry.cpp.obj.requires
-CMakeFiles/ProyectoED2_master.dir/requires: CMakeFiles/ProyectoED2_master.dir/Idx_Entry.cpp.obj.requires
-CMakeFiles/ProyectoED2_master.dir/requires: CMakeFiles/ProyectoED2_master.dir/Indice.cpp.obj.requires
 CMakeFiles/ProyectoED2_master.dir/requires: CMakeFiles/ProyectoED2_master.dir/listbloquetablas.cpp.obj.requires
 CMakeFiles/ProyectoED2_master.dir/requires: CMakeFiles/ProyectoED2_master.dir/listcampodatos.cpp.obj.requires
 CMakeFiles/ProyectoED2_master.dir/requires: CMakeFiles/ProyectoED2_master.dir/listcampos.cpp.obj.requires
@@ -722,6 +717,11 @@ CMakeFiles/ProyectoED2_master.dir/requires: CMakeFiles/ProyectoED2_master.dir/ma
 CMakeFiles/ProyectoED2_master.dir/requires: CMakeFiles/ProyectoED2_master.dir/masterblock.cpp.obj.requires
 CMakeFiles/ProyectoED2_master.dir/requires: CMakeFiles/ProyectoED2_master.dir/registro.cpp.obj.requires
 CMakeFiles/ProyectoED2_master.dir/requires: CMakeFiles/ProyectoED2_master.dir/tabla.cpp.obj.requires
+CMakeFiles/ProyectoED2_master.dir/requires: CMakeFiles/ProyectoED2_master.dir/Indice.cpp.obj.requires
+CMakeFiles/ProyectoED2_master.dir/requires: CMakeFiles/ProyectoED2_master.dir/BloqueIndice.cpp.obj.requires
+CMakeFiles/ProyectoED2_master.dir/requires: CMakeFiles/ProyectoED2_master.dir/HashTableEntry.cpp.obj.requires
+CMakeFiles/ProyectoED2_master.dir/requires: CMakeFiles/ProyectoED2_master.dir/Idx_Entry.cpp.obj.requires
+CMakeFiles/ProyectoED2_master.dir/requires: CMakeFiles/ProyectoED2_master.dir/BloqueLlave.cpp.obj.requires
 
 .PHONY : CMakeFiles/ProyectoED2_master.dir/requires
 

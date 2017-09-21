@@ -84,22 +84,20 @@ void tabla::charToTabla(char * data)
     pos+=4;
 }
 
-void tabla::crearRegistro(ManejadordeBloques * mbloques,Registro *r)
-{
-    Idx_Entry * entry;
-    if(primerBloqueDatos==-1)
-    {
+void tabla::crearRegistro(ManejadordeBloques * mbloques,Registro *r) {
+    Idx_Entry *entry;
+    if (primerBloqueDatos == -1) {
         Bloque *b = mbloques->asignarNueboBloque();
-        BloqueRegistro * br= new BloqueRegistro(archivo,b->nBloque);
+        BloqueRegistro *br = new BloqueRegistro(archivo, b->nBloque);
         br->registros->add(r);
         br->actualizarCantidad();
         br->escribir();
         registros->add(r);
-        primerBloqueDatos=b->nBloque;
-        actualBloqueDatos=b->nBloque;
+        primerBloqueDatos = b->nBloque;
+        actualBloqueDatos = b->nBloque;
         //Lo agrego a la Hash table
-        entry= new Idx_Entry(r->campoDatos->get(0)->valor,b->nBloque,0);
-        indice->insertar(entry,mbloques);
+        entry = new Idx_Entry(r->campoDatos->get(0)->valor, b->nBloque, 0);
+        indice->insertar(entry, mbloques);
         return;
     }
     int actual=primerBloqueDatos;

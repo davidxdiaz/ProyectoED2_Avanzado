@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ProyectoED2_master"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/David/Desktop/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Users/David/Desktop/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/David/Desktop/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/David/Desktop/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ProyectoED2_master">
+				<Option output="C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/cmake-build-debug/ProyectoED2_master.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\users\david\desktop\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\users\david\desktop\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\users\david\desktop\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\users\david\desktop\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\users\david\desktop\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\users\david\desktop\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\users\david\desktop\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+					<Add directory="/mingw/lib/gcc/mingw32/5.3.0/../../../../include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/David/Desktop/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 ProyectoED2_master"/>
+					<CompileFile command="C:/Users/David/Desktop/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/David/Desktop/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/David/Desktop/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ProyectoED2_master/fast">
+				<Option output="C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/cmake-build-debug/ProyectoED2_master.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\users\david\desktop\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\users\david\desktop\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\users\david\desktop\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\users\david\desktop\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\users\david\desktop\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\users\david\desktop\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\users\david\desktop\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+					<Add directory="/mingw/lib/gcc/mingw32/5.3.0/../../../../include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/David/Desktop/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 ProyectoED2_master/fast"/>
+					<CompileFile command="C:/Users/David/Desktop/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/David/Desktop/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/David/Desktop/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/David/Desktop/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Users/David/Desktop/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/David/Desktop/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/David/Desktop/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/David/Desktop/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Users/David/Desktop/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/David/Desktop/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/David/Desktop/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/BloqueIndice.cpp">
+			<Option target="ProyectoED2_master"/>
+		</Unit>
+		<Unit filename="C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/BloqueIndice.h">
+			<Option target="ProyectoED2_master"/>
+		</Unit>
+		<Unit filename="C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/BloqueLlave.cpp">
+			<Option target="ProyectoED2_master"/>
+		</Unit>
+		<Unit filename="C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/BloqueLlave.h">
+			<Option target="ProyectoED2_master"/>
+		</Unit>
+		<Unit filename="C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/HashTableEntry.cpp">
+			<Option target="ProyectoED2_master"/>
+		</Unit>
+		<Unit filename="C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/HashTableEntry.h">
+			<Option target="ProyectoED2_master"/>
+		</Unit>
+		<Unit filename="C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/Idx_Entry.cpp">
+			<Option target="ProyectoED2_master"/>
+		</Unit>
+		<Unit filename="C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/Idx_Entry.h">
+			<Option target="ProyectoED2_master"/>
+		</Unit>
+		<Unit filename="C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/Indice.cpp">
+			<Option target="ProyectoED2_master"/>
+		</Unit>
+		<Unit filename="C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/Indice.h">
+			<Option target="ProyectoED2_master"/>
+		</Unit>
+		<Unit filename="C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/bloque.cpp">
+			<Option target="ProyectoED2_master"/>
+		</Unit>
+		<Unit filename="C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/bloque.h">
+			<Option target="ProyectoED2_master"/>
+		</Unit>
+		<Unit filename="C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/bloquecampo.cpp">
+			<Option target="ProyectoED2_master"/>
+		</Unit>
+		<Unit filename="C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/bloquecampo.h">
+			<Option target="ProyectoED2_master"/>
+		</Unit>
+		<Unit filename="C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/bloqueregistro.cpp">
+			<Option target="ProyectoED2_master"/>
+		</Unit>
+		<Unit filename="C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/bloqueregistro.h">
+			<Option target="ProyectoED2_master"/>
+		</Unit>
+		<Unit filename="C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/bloquetabla.cpp">
+			<Option target="ProyectoED2_master"/>
+		</Unit>
+		<Unit filename="C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/bloquetabla.h">
+			<Option target="ProyectoED2_master"/>
+		</Unit>
+		<Unit filename="C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/campo.cpp">
+			<Option target="ProyectoED2_master"/>
+		</Unit>
+		<Unit filename="C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/campo.h">
+			<Option target="ProyectoED2_master"/>
+		</Unit>
+		<Unit filename="C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/campodatos.cpp">
+			<Option target="ProyectoED2_master"/>
+		</Unit>
+		<Unit filename="C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/campodatos.h">
+			<Option target="ProyectoED2_master"/>
+		</Unit>
+		<Unit filename="C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/datafile.cpp">
+			<Option target="ProyectoED2_master"/>
+		</Unit>
+		<Unit filename="C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/datafile.h">
+			<Option target="ProyectoED2_master"/>
+		</Unit>
+		<Unit filename="C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/json.hpp">
+			<Option target="ProyectoED2_master"/>
+		</Unit>
+		<Unit filename="C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/listbloquetablas.cpp">
+			<Option target="ProyectoED2_master"/>
+		</Unit>
+		<Unit filename="C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/listbloquetablas.h">
+			<Option target="ProyectoED2_master"/>
+		</Unit>
+		<Unit filename="C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/listcampodatos.cpp">
+			<Option target="ProyectoED2_master"/>
+		</Unit>
+		<Unit filename="C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/listcampodatos.h">
+			<Option target="ProyectoED2_master"/>
+		</Unit>
+		<Unit filename="C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/listcampos.cpp">
+			<Option target="ProyectoED2_master"/>
+		</Unit>
+		<Unit filename="C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/listcampos.h">
+			<Option target="ProyectoED2_master"/>
+		</Unit>
+		<Unit filename="C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/listregistros.cpp">
+			<Option target="ProyectoED2_master"/>
+		</Unit>
+		<Unit filename="C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/listregistros.h">
+			<Option target="ProyectoED2_master"/>
+		</Unit>
+		<Unit filename="C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/listtabla.cpp">
+			<Option target="ProyectoED2_master"/>
+		</Unit>
+		<Unit filename="C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/listtabla.h">
+			<Option target="ProyectoED2_master"/>
+		</Unit>
+		<Unit filename="C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/main.cpp">
+			<Option target="ProyectoED2_master"/>
+		</Unit>
+		<Unit filename="C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/manejadordebloques.cpp">
+			<Option target="ProyectoED2_master"/>
+		</Unit>
+		<Unit filename="C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/manejadordebloques.h">
+			<Option target="ProyectoED2_master"/>
+		</Unit>
+		<Unit filename="C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/manejadorjson.cpp">
+			<Option target="ProyectoED2_master"/>
+		</Unit>
+		<Unit filename="C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/manejadorjson.h">
+			<Option target="ProyectoED2_master"/>
+		</Unit>
+		<Unit filename="C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/manejadrotablas.cpp">
+			<Option target="ProyectoED2_master"/>
+		</Unit>
+		<Unit filename="C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/manejadrotablas.h">
+			<Option target="ProyectoED2_master"/>
+		</Unit>
+		<Unit filename="C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/masterblock.cpp">
+			<Option target="ProyectoED2_master"/>
+		</Unit>
+		<Unit filename="C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/masterblock.h">
+			<Option target="ProyectoED2_master"/>
+		</Unit>
+		<Unit filename="C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/registro.cpp">
+			<Option target="ProyectoED2_master"/>
+		</Unit>
+		<Unit filename="C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/registro.h">
+			<Option target="ProyectoED2_master"/>
+		</Unit>
+		<Unit filename="C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/tabla.cpp">
+			<Option target="ProyectoED2_master"/>
+		</Unit>
+		<Unit filename="C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/tabla.h">
+			<Option target="ProyectoED2_master"/>
+		</Unit>
+		<Unit filename="C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -23,13 +23,16 @@ Indice::Indice(DataFile * a, int primer,int actual,int maximo)
 bool Indice::insertar(Idx_Entry * e,ManejadordeBloques * mb)
 {
     int pos= hash(e->id);
-    if(buscar(e->id)!=0){
+
+    if(buscar(e->id)==0){
+
         Idx_Entry * entrada=e; //new Idx_Entry(id,nBloque,nRegistroR);
         int cont=0;
         for(int x=0;x<pos;x+=62){
             cont++;
         }
         int bloqueActual = primerBIndice;
+
         for(int c=0;c<cont;c++)
         {
             BloqueIndice * bIndice= new BloqueIndice(archivo,bloqueActual);
@@ -37,19 +40,27 @@ bool Indice::insertar(Idx_Entry * e,ManejadordeBloques * mb)
             bloqueActual=bIndice->siguiente;
             delete bIndice;
         }
+
         cont--;
         int posDef= pos - (cont * 62);
+
         BloqueIndice * bloque= new BloqueIndice(archivo,bloqueActual);
+
         bloque->cargar();
+
         HashTableEntry * entry= bloque->getEntrada(posDef);
-        if(entry->primerBloqueLLave==-1)
+        if(entry->primerBloqueLLave==0)
         {
-            Bloque * b = mb->asignarNueboBloque();
-            BloqueLlave * bLlave= new BloqueLlave(archivo,b->nBloque);
+
+            int n = mb->asignarNueboBloque()->nBloque;
+            BloqueLlave * bLlave= new BloqueLlave(archivo,n);
+
             bLlave->llaves[0]=entrada;
             bLlave->actualizarCantidad();
+
             entry->primerBloqueLLave=bLlave->nBloque;
             entry->actualBloqueLLave=bLlave->nBloque;
+
             bloque->escribir();//Porque actualice uno de sus entry
             bLlave->escribir();
             return true;
@@ -89,7 +100,6 @@ int Indice::hash(char * id)
         clave+=ascii;
     }
     int n=clave%M;
-    cout<<"Hash"<<n<<endl;
     return n;
 }
 
@@ -108,16 +118,20 @@ Idx_Entry * Indice::buscar(char * id)
         bloqueActual=bIndice->siguiente;
         delete bIndice;
     }
+
     cont--;
     int posDef= pos - (cont * 62);
     BloqueIndice * bloque= new BloqueIndice(archivo,bloqueActual);
     bloque->cargar();
+
     HashTableEntry * entry= bloque->getEntrada(posDef);
     int bloqueLlaves = entry->primerBloqueLLave;
 
     while (bloqueLlaves <= entry->actualBloqueLLave){
         BloqueLlave * b= new BloqueLlave(archivo,bloqueLlaves);
+
         b->cargar();
+
         for (int c = 0; c < b->cantidad; c++) {
             Idx_Entry *entrada = b->llaves[c];
             if (strcmp(entrada->id,id)==0) {
@@ -126,6 +140,8 @@ Idx_Entry * Indice::buscar(char * id)
             delete entrada;
         }
         bloqueLlaves = b->siguiente;
+        if(b->siguiente==-1)
+            return 0;
         delete b;
     }
     return 0;

@@ -68,7 +68,7 @@ int main()
         }
     }
 
-        for(int c=0;c<100;c++)
+        for(int c=0;c<1;c++)
         {
 
             Registro * r= new Registro(mtablas->buscarTabla(c)->getLongitudRegistros());

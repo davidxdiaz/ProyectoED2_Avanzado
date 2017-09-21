@@ -3,6 +3,8 @@
 //
 
 #include "BloqueIndice.h"
+#include <iostream>
+using namespace std;
 
 BloqueIndice::BloqueIndice(DataFile * a,int nB)
 {
@@ -11,7 +13,9 @@ BloqueIndice::BloqueIndice(DataFile * a,int nB)
     tamano=512;
     cantidad=0;
     for(int c=0;c<62;c++)
-        indice[c]=0;
+        indice[c]=new HashTableEntry(-1,-1);
+
+
     archivo=a;
 }
 
@@ -35,8 +39,8 @@ char * BloqueIndice::toChar()
     pos+=4;
     for(int c=0;c<62;c++)
     {
-        if(indice[c] != 0)
-            memcpy(&data[pos],indice[c]->toChar(),8);
+        char * dataEntry= indice[c]->toChar();
+        memcpy(&data[pos],dataEntry,8);
         pos+=8;
     }
     return data;
