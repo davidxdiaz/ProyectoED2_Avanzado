@@ -48,6 +48,8 @@ CMakeFiles/ProyectoED2_master.dir/bloqueregistro.cpp.obj
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/listregistros.h
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/registro.h
 CMakeFiles/ProyectoED2_master.dir/bloquetabla.cpp.obj
+ C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/BloqueIndice.h
+ C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/HashTableEntry.h
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/Idx_Entry.h
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/Indice.h
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/bloque.h
@@ -75,6 +77,8 @@ CMakeFiles/ProyectoED2_master.dir/datafile.cpp.obj
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/datafile.cpp
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/datafile.h
 CMakeFiles/ProyectoED2_master.dir/listbloquetablas.cpp.obj
+ C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/BloqueIndice.h
+ C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/HashTableEntry.h
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/Idx_Entry.h
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/Indice.h
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/bloque.h
@@ -109,6 +113,8 @@ CMakeFiles/ProyectoED2_master.dir/listregistros.cpp.obj
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/listregistros.h
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/registro.h
 CMakeFiles/ProyectoED2_master.dir/listtabla.cpp.obj
+ C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/BloqueIndice.h
+ C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/HashTableEntry.h
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/Idx_Entry.h
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/Indice.h
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/bloque.h
@@ -160,6 +166,8 @@ CMakeFiles/ProyectoED2_master.dir/manejadorjson.cpp.obj
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/manejadorjson.cpp
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/manejadorjson.h
 CMakeFiles/ProyectoED2_master.dir/manejadrotablas.cpp.obj
+ C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/BloqueIndice.h
+ C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/HashTableEntry.h
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/Idx_Entry.h
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/Indice.h
  C:/Users/David/Downloads/ProyectoED2-master/ProyectoED2-master/bloque.h

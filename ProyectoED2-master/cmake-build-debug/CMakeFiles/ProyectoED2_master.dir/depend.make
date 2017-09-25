@@ -47,6 +47,8 @@ CMakeFiles/ProyectoED2_master.dir/bloqueregistro.cpp.obj: ../listcampodatos.h
 CMakeFiles/ProyectoED2_master.dir/bloqueregistro.cpp.obj: ../listregistros.h
 CMakeFiles/ProyectoED2_master.dir/bloqueregistro.cpp.obj: ../registro.h
 
+CMakeFiles/ProyectoED2_master.dir/bloquetabla.cpp.obj: ../BloqueIndice.h
+CMakeFiles/ProyectoED2_master.dir/bloquetabla.cpp.obj: ../HashTableEntry.h
 CMakeFiles/ProyectoED2_master.dir/bloquetabla.cpp.obj: ../Idx_Entry.h
 CMakeFiles/ProyectoED2_master.dir/bloquetabla.cpp.obj: ../Indice.h
 CMakeFiles/ProyectoED2_master.dir/bloquetabla.cpp.obj: ../bloque.h
@@ -74,6 +76,8 @@ CMakeFiles/ProyectoED2_master.dir/campodatos.cpp.obj: ../campodatos.h
 CMakeFiles/ProyectoED2_master.dir/datafile.cpp.obj: ../datafile.cpp
 CMakeFiles/ProyectoED2_master.dir/datafile.cpp.obj: ../datafile.h
 
+CMakeFiles/ProyectoED2_master.dir/listbloquetablas.cpp.obj: ../BloqueIndice.h
+CMakeFiles/ProyectoED2_master.dir/listbloquetablas.cpp.obj: ../HashTableEntry.h
 CMakeFiles/ProyectoED2_master.dir/listbloquetablas.cpp.obj: ../Idx_Entry.h
 CMakeFiles/ProyectoED2_master.dir/listbloquetablas.cpp.obj: ../Indice.h
 CMakeFiles/ProyectoED2_master.dir/listbloquetablas.cpp.obj: ../bloque.h
@@ -108,6 +112,8 @@ CMakeFiles/ProyectoED2_master.dir/listregistros.cpp.obj: ../listregistros.cpp
 CMakeFiles/ProyectoED2_master.dir/listregistros.cpp.obj: ../listregistros.h
 CMakeFiles/ProyectoED2_master.dir/listregistros.cpp.obj: ../registro.h
 
+CMakeFiles/ProyectoED2_master.dir/listtabla.cpp.obj: ../BloqueIndice.h
+CMakeFiles/ProyectoED2_master.dir/listtabla.cpp.obj: ../HashTableEntry.h
 CMakeFiles/ProyectoED2_master.dir/listtabla.cpp.obj: ../Idx_Entry.h
 CMakeFiles/ProyectoED2_master.dir/listtabla.cpp.obj: ../Indice.h
 CMakeFiles/ProyectoED2_master.dir/listtabla.cpp.obj: ../bloque.h
@@ -159,6 +165,8 @@ CMakeFiles/ProyectoED2_master.dir/manejadorjson.cpp.obj: ../json.hpp
 CMakeFiles/ProyectoED2_master.dir/manejadorjson.cpp.obj: ../manejadorjson.cpp
 CMakeFiles/ProyectoED2_master.dir/manejadorjson.cpp.obj: ../manejadorjson.h
 
+CMakeFiles/ProyectoED2_master.dir/manejadrotablas.cpp.obj: ../BloqueIndice.h
+CMakeFiles/ProyectoED2_master.dir/manejadrotablas.cpp.obj: ../HashTableEntry.h
 CMakeFiles/ProyectoED2_master.dir/manejadrotablas.cpp.obj: ../Idx_Entry.h
 CMakeFiles/ProyectoED2_master.dir/manejadrotablas.cpp.obj: ../Indice.h
 CMakeFiles/ProyectoED2_master.dir/manejadrotablas.cpp.obj: ../bloque.h

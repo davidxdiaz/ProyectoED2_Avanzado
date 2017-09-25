@@ -86,7 +86,7 @@ int main()
     /*BloqueIndice * b = new BloqueIndice(archivo,3);
     b->cargar();
     b->listarElementos();//*/
-    mtablas->buscarTabla(0)->buscarRegistro("id_860")->printRegistro();
+    mtablas->buscarTabla(0)->buscarRegistro("id_900")->printRegistro();
 
 
     //Probando Json

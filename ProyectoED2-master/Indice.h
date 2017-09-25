@@ -7,7 +7,7 @@
 #include "Idx_Entry.h"
 #include "datafile.h"
 #include "manejadordebloques.h"
-
+#include "BloqueIndice.h"
 
 class Indice {
 public:
@@ -17,6 +17,7 @@ public:
     bool insertar(Idx_Entry *e,ManejadordeBloques * mb);
     Idx_Entry * buscar(char * id);
     void reHash(ManejadordeBloques * mB);
+    BloqueIndice * clonar();
     void manejadorBIndice(ManejadordeBloques * mB);
     int hash(char *id);
     int M;

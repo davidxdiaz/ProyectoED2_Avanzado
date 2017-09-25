@@ -67,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="415">
-              <caret line="88" column="49" lean-forward="false" selection-start-line="88" selection-start-column="49" selection-end-line="88" selection-end-column="49" />
+              <caret line="88" column="51" lean-forward="false" selection-start-line="88" selection-start-column="51" selection-end-line="88" selection-end-column="51" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -78,8 +78,8 @@
       <file leaf-file-name="Indice.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Indice.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="22" column="45" lean-forward="false" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+            <state relative-caret-position="283">
+              <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
               <folding>
                 <element signature="e#113#135#0" expanded="true" />
               </folding>
@@ -148,12 +148,12 @@
         <option value="$PROJECT_DIR$/tabla.h" />
         <option value="$PROJECT_DIR$/BloqueIndice.h" />
         <option value="$PROJECT_DIR$/HashTableEntry.cpp" />
-        <option value="$PROJECT_DIR$/Indice.h" />
         <option value="$PROJECT_DIR$/bloqueregistro.cpp" />
         <option value="$PROJECT_DIR$/registro.cpp" />
         <option value="$PROJECT_DIR$/BloqueIndice.cpp" />
         <option value="$PROJECT_DIR$/tabla.cpp" />
         <option value="$PROJECT_DIR$/Indice.cpp" />
+        <option value="$PROJECT_DIR$/Indice.h" />
         <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
@@ -433,16 +433,15 @@
       <workItem from="1505934977583" duration="201000" />
       <workItem from="1505937261733" duration="13000" />
       <workItem from="1505953635274" duration="4693000" />
-      <workItem from="1505997552004" duration="14865000" />
+      <workItem from="1505997552004" duration="17381000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69062000" />
+    <option name="totallyTimeSpent" value="71578000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.218125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -450,7 +449,7 @@
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33028722" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33028722" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -814,16 +813,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Indice.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="22" column="45" lean-forward="false" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
-          <folding>
-            <element signature="e#113#135#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tabla.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="471">
@@ -840,10 +829,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Indice.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+          <folding>
+            <element signature="e#113#135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="415">
-          <caret line="88" column="49" lean-forward="false" selection-start-line="88" selection-start-column="49" selection-end-line="88" selection-end-column="49" />
+          <caret line="88" column="51" lean-forward="false" selection-start-line="88" selection-start-column="51" selection-end-line="88" selection-end-column="51" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
